@@ -1,0 +1,255 @@
+{
+  "_comment": " This file was generated automatically by Style Dictionary.   Do not edit directly. Changes should be made in Figma.",
+  "albi": {
+    "dimension": {
+      "typography": {
+        "weights": {
+          "thin": {
+            "value": "100px",
+            "type": "dimension",
+            "description": "Font weight for Thin"
+          },
+          "extra-light": {
+            "value": "200px",
+            "type": "dimension",
+            "description": "Font weight for ExtraLight"
+          },
+          "light": {
+            "value": "300px",
+            "type": "dimension",
+            "description": "Font weight for Light"
+          },
+          "regular": {
+            "value": "400px",
+            "type": "dimension",
+            "description": "Font weight for Regular"
+          },
+          "medium": {
+            "value": "500px",
+            "type": "dimension",
+            "description": "Font weight for Medium"
+          },
+          "semi-bold": {
+            "value": "600px",
+            "type": "dimension",
+            "description": "Font weight for SemiBold"
+          },
+          "bold": {
+            "value": "700px",
+            "type": "dimension",
+            "description": "Font weight for Bold"
+          },
+          "extra-bold": {
+            "value": "800px",
+            "type": "dimension",
+            "description": "Font weight for ExtraBold"
+          },
+          "black": {
+            "value": "900px",
+            "type": "dimension",
+            "description": "Font weight for Black"
+          }
+        }
+      },
+      "rem-scale": {
+        "dimension": {
+          "rem-0": {
+            "value": "0px",
+            "type": "dimension"
+          },
+          "px-1": {
+            "value": "1px",
+            "type": "dimension"
+          },
+          "px-2": {
+            "value": "2px",
+            "type": "dimension"
+          },
+          "rem-0-125": {
+            "value": "2px",
+            "type": "dimension"
+          },
+          "rem-0-25": {
+            "value": "4px",
+            "type": "dimension"
+          },
+          "rem-0-375": {
+            "value": "6px",
+            "type": "dimension"
+          },
+          "rem-0-5": {
+            "value": "8px",
+            "type": "dimension"
+          },
+          "rem-0-625": {
+            "value": "10px",
+            "type": "dimension"
+          },
+          "rem-0-75": {
+            "value": "12px",
+            "type": "dimension"
+          },
+          "rem-0-875": {
+            "value": "14px",
+            "type": "dimension"
+          },
+          "rem-1": {
+            "value": "16px",
+            "type": "dimension"
+          },
+          "rem-1-25": {
+            "value": "20px",
+            "type": "dimension"
+          },
+          "rem-1-5": {
+            "value": "24px",
+            "type": "dimension"
+          },
+          "rem-1-75": {
+            "value": "28px",
+            "type": "dimension"
+          },
+          "rem-2": {
+            "value": "32px",
+            "type": "dimension"
+          },
+          "rem-2-25": {
+            "value": "36px",
+            "type": "dimension"
+          },
+          "rem-2-5": {
+            "value": "40px",
+            "type": "dimension"
+          },
+          "rem-2-75": {
+            "value": "44px",
+            "type": "dimension"
+          },
+          "rem-3": {
+            "value": "48px",
+            "type": "dimension"
+          },
+          "rem-3-5": {
+            "value": "56px",
+            "type": "dimension"
+          },
+          "rem-4": {
+            "value": "64px",
+            "type": "dimension"
+          },
+          "rem-5": {
+            "value": "80px",
+            "type": "dimension"
+          },
+          "rem-6": {
+            "value": "96px",
+            "type": "dimension"
+          },
+          "rem-7": {
+            "value": "112px",
+            "type": "dimension"
+          },
+          "rem-8": {
+            "value": "128px",
+            "type": "dimension"
+          }
+        }
+      },
+      "space": {
+        "dimension": {
+          "number": {
+            "value": "160px",
+            "type": "dimension"
+          }
+        },
+        "space": {
+          "0": {
+            "value": "{albi.dimension.rem-scale.dimension.rem-0}",
+            "type": "dimension",
+            "description": "Spacing value for zero (tshirt)"
+          },
+          "1": {
+            "value": "{albi.dimension.rem-scale.dimension.rem-1}",
+            "type": "dimension",
+            "description": "Spacing value for base (tshirt)"
+          },
+          "2": {
+            "value": "{albi.dimension.rem-scale.dimension.rem-2}",
+            "type": "dimension",
+            "description": "Spacing value for xl2 (tshirt)"
+          },
+          "3": {
+            "value": "{albi.dimension.rem-scale.dimension.rem-3}",
+            "type": "dimension",
+            "description": "Spacing value for xl4 (tshirt)"
+          },
+          "4": {
+            "value": "{albi.dimension.rem-scale.dimension.rem-4}",
+            "type": "dimension",
+            "description": "Spacing value for xl5 (tshirt)"
+          },
+          "5": {
+            "value": "{albi.dimension.rem-scale.dimension.rem-5}",
+            "type": "dimension",
+            "description": "Spacing value for xl6 (tshirt)"
+          },
+          "px-1": {
+            "value": "{albi.dimension.rem-scale.dimension.px-1}",
+            "type": "dimension",
+            "description": "Spacing value for px (tshirt)"
+          },
+          "0-125": {
+            "value": "{albi.dimension.rem-scale.dimension.rem-0-125}",
+            "type": "dimension",
+            "description": "Spacing value for xxs (tshirt)"
+          },
+          "0-25": {
+            "value": "{albi.dimension.rem-scale.dimension.rem-0-25}",
+            "type": "dimension",
+            "description": "Spacing value for xs2 (tshirt)"
+          },
+          "0-5": {
+            "value": "{albi.dimension.rem-scale.dimension.rem-0-5}",
+            "type": "dimension",
+            "description": "Spacing value for xs (tshirt)"
+          },
+          "0-75": {
+            "value": "{albi.dimension.rem-scale.dimension.rem-0-75}",
+            "type": "dimension",
+            "description": "Spacing value for sm (tshirt)"
+          },
+          "1-25": {
+            "value": "{albi.dimension.rem-scale.dimension.rem-1-25}",
+            "type": "dimension",
+            "description": "Spacing value for md (tshirt)"
+          },
+          "1-5": {
+            "value": "{albi.dimension.rem-scale.dimension.rem-1-5}",
+            "type": "dimension",
+            "description": "Spacing value for lg (tshirt)"
+          },
+          "1-75": {
+            "value": "{albi.dimension.rem-scale.dimension.rem-1-75}",
+            "type": "dimension",
+            "description": "Spacing value for xl (tshirt)"
+          },
+          "2-5": {
+            "value": "{albi.dimension.rem-scale.dimension.rem-2-5}",
+            "type": "dimension",
+            "description": "Spacing value for xl3 (tshirt)"
+          }
+        }
+      },
+      "border-widths": {
+        "button": {
+          "outlined": {
+            "border-width": {
+              "value": "{albi.dimension.rem-scale.dimension.px-2}",
+              "type": "dimension"
+            }
+          }
+        }
+      }
+    }
+  }
+}

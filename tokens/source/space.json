@@ -1,0 +1,53 @@
+{
+  "_comment": " This file was generated automatically by Style Dictionary.   Do not edit directly. Changes should be made in Figma.",
+  "albi": {
+    "space": {
+      "space": {
+        "button": {
+          "small": {
+            "gap": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-0-5}",
+              "type": "space"
+            },
+            "padding-x": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-1}",
+              "type": "space"
+            },
+            "padding-y": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-0-75}",
+              "type": "space"
+            }
+          },
+          "large": {
+            "gap": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-0-75}",
+              "type": "space"
+            },
+            "padding-x": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-1-5}",
+              "type": "space"
+            },
+            "padding-y": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-1}",
+              "type": "space"
+            }
+          }
+        },
+        "fab": {
+          "gap": {
+            "value": "{albi.dimension.rem-scale.dimension.rem-0-5}",
+            "type": "space"
+          },
+          "padding-x": {
+            "value": "{albi.dimension.rem-scale.dimension.rem-1}",
+            "type": "space"
+          },
+          "padding-y": {
+            "value": "{albi.dimension.rem-scale.dimension.rem-1}",
+            "type": "space"
+          }
+        }
+      }
+    }
+  }
+}

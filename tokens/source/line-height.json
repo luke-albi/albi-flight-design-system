@@ -1,0 +1,145 @@
+{
+  "_comment": " This file was generated automatically by Style Dictionary.   Do not edit directly. Changes should be made in Figma.",
+  "albi": {
+    "line-height": {
+      "typography": {
+        "title": {
+          "title-1": {
+            "line-height": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-7}",
+              "type": "lineHeight",
+              "description": "Line height for Title/Title-1"
+            }
+          },
+          "title-2": {
+            "line-height": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-6}",
+              "type": "lineHeight",
+              "description": "Line height for Title/Title-2"
+            }
+          },
+          "title-3": {
+            "line-height": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-5}",
+              "type": "lineHeight",
+              "description": "Line height for Title/Title-3"
+            }
+          }
+        },
+        "heading": {
+          "h1": {
+            "line-height": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-5}",
+              "type": "lineHeight",
+              "description": "Line height for Heading/H1"
+            }
+          },
+          "h2": {
+            "line-height": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-4}",
+              "type": "lineHeight",
+              "description": "Line height for Heading/H2"
+            }
+          },
+          "h3": {
+            "line-height": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-3-5}",
+              "type": "lineHeight",
+              "description": "Line height for Heading/H3"
+            }
+          },
+          "h4": {
+            "line-height": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-3}",
+              "type": "lineHeight",
+              "description": "Line height for Heading/H4"
+            }
+          },
+          "h5": {
+            "line-height": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-2-25}",
+              "type": "lineHeight",
+              "description": "Line height for Heading/H5"
+            }
+          },
+          "h6": {
+            "line-height": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-1-5}",
+              "type": "lineHeight",
+              "description": "Line height for Heading/H6"
+            }
+          }
+        },
+        "label": {
+          "label-1": {
+            "line-height": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-1-5}",
+              "type": "lineHeight",
+              "description": "Line height for Label/Label-1"
+            }
+          },
+          "label-2": {
+            "line-height": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-1-25}",
+              "type": "lineHeight",
+              "description": "Line height for Label/Label-2"
+            }
+          },
+          "label-3": {
+            "line-height": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-1-25}",
+              "type": "lineHeight",
+              "description": "Line height for Label/Label-3"
+            }
+          }
+        },
+        "body": {
+          "body-1": {
+            "line-height": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-1-5}",
+              "type": "lineHeight",
+              "description": "Line height for Body/Body-1"
+            }
+          },
+          "body-2": {
+            "line-height": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-1-5}",
+              "type": "lineHeight",
+              "description": "Line height for Body/Body-2"
+            }
+          },
+          "body-3": {
+            "line-height": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-1-25}",
+              "type": "lineHeight",
+              "description": "Line height for Body/Body-3"
+            }
+          },
+          "body-4": {
+            "line-height": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-1}",
+              "type": "lineHeight",
+              "description": "Line height for Body/Body-4"
+            }
+          }
+        },
+        "caption": {
+          "caption-1": {
+            "line-height": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-0-875}",
+              "type": "lineHeight",
+              "description": "Line height for Caption/Caption-1"
+            }
+          },
+          "caption-2": {
+            "line-height": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-0-75}",
+              "type": "lineHeight",
+              "description": "Line height for Caption/Caption-2"
+            }
+          }
+        }
+      }
+    }
+  }
+}

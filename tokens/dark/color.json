@@ -1,0 +1,1673 @@
+{
+  "_comment": " This file was generated automatically by Style Dictionary.   Do not edit directly. Changes should be made in Figma.",
+  "albi": {
+    "color": {
+      "primitive-colors": {
+        "brand": {
+          "sky": {
+            "value": "#2463eb",
+            "type": "color"
+          },
+          "apricot": {
+            "value": "#ff861e",
+            "type": "color"
+          },
+          "archived": {
+            "mint": {
+              "value": "#28a745",
+              "type": "color"
+            },
+            "strawberry": {
+              "value": "#fa0000",
+              "type": "color"
+            },
+            "lemon": {
+              "value": "#fad02c",
+              "type": "color"
+            },
+            "plum": {
+              "value": "#9e20e7",
+              "type": "color"
+            },
+            "slate": {
+              "value": "#6c757d",
+              "type": "color"
+            }
+          }
+        },
+        "core": {
+          "neutral": {
+            "black": {
+              "value": "#000000",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "white": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "transparent": {
+              "value": "#ffffff00",
+              "type": "color"
+            }
+          },
+          "red": {
+            "50": {
+              "value": "#fff6f4",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "100": {
+              "value": "#ffe9e5",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "200": {
+              "value": "#ffb6aa",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "300": {
+              "value": "#fa8575",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "400": {
+              "value": "#ed3629",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "500": {
+              "value": "#d4241a",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "600": {
+              "value": "#b01810",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "700": {
+              "value": "#8b120c",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "800": {
+              "value": "#650f09",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "900": {
+              "value": "#400302",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            }
+          },
+          "purple": {
+            "50": {
+              "value": "#f9f7ff",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "100": {
+              "value": "#f0ecff",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "200": {
+              "value": "#cebfff",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "300": {
+              "value": "#b198f8",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "400": {
+              "value": "#8d68e0",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "500": {
+              "value": "#824ce2",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "600": {
+              "value": "#6d35c7",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "700": {
+              "value": "#542b9b",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "800": {
+              "value": "#3d1e71",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "900": {
+              "value": "#240c49",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            }
+          },
+          "blue": {
+            "50": {
+              "value": "#f3f7ff",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "100": {
+              "value": "#e3edff",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "200": {
+              "value": "#a6c5ff",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "300": {
+              "value": "#79a5f9",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "400": {
+              "value": "#457ae7",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "500": {
+              "value": "{albi.color.primitive-colors.brand.sky}",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "600": {
+              "value": "#1f51bc",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "700": {
+              "value": "#1d408e",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "800": {
+              "value": "#162f63",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "900": {
+              "value": "#0a1a3b",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            }
+          },
+          "green": {
+            "50": {
+              "value": "#e5ffe2",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "100": {
+              "value": "#cff9c9",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "200": {
+              "value": "#7adc6e",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "300": {
+              "value": "#43bd34",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "400": {
+              "value": "#199200",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "500": {
+              "value": "#1e7e10",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "600": {
+              "value": "#1a670f",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "700": {
+              "value": "#184f11",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "800": {
+              "value": "#11390c",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "900": {
+              "value": "#0a2107",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            }
+          },
+          "yellow": {
+            "50": {
+              "value": "#fff5d5",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "100": {
+              "value": "#ffeba9",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "200": {
+              "value": "#e9c649",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "300": {
+              "value": "#c4a10e",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "400": {
+              "value": "#977c07",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "500": {
+              "value": "#826b0e",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "600": {
+              "value": "#69560a",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "700": {
+              "value": "#534409",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "800": {
+              "value": "#3c3005",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "900": {
+              "value": "#231b01",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            }
+          },
+          "orange": {
+            "50": {
+              "value": "#fff6f0",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "100": {
+              "value": "#ffe8da",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "200": {
+              "value": "#ffb687",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "300": {
+              "value": "{albi.color.primitive-colors.brand.apricot}",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "400": {
+              "value": "#c56300",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "500": {
+              "value": "#a95713",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "600": {
+              "value": "#894610",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "700": {
+              "value": "#6a370e",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "800": {
+              "value": "#4f2605",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "900": {
+              "value": "#311400",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            }
+          },
+          "grey": {
+            "50": {
+              "value": "#f6f8fa",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "100": {
+              "value": "#ebeef1",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "200": {
+              "value": "#c0c8d2",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "300": {
+              "value": "#9ea7b5",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "400": {
+              "value": "#767f8e",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "500": {
+              "value": "#636e80",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "600": {
+              "value": "#525767",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "700": {
+              "value": "#404552",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "800": {
+              "value": "#2f303c",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "900": {
+              "value": "#1a1b25",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            }
+          },
+          "blue-grey": {
+            "50": {
+              "value": "#d5dff4",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "100": {
+              "value": "#c9d4ea",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "200": {
+              "value": "#b8c4db",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "300": {
+              "value": "#98a4be",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "400": {
+              "value": "#7886a1",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "500": {
+              "value": "#606e8b",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "600": {
+              "value": "#48556e",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "700": {
+              "value": "#323c52",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "800": {
+              "value": "#1f283a",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "900": {
+              "value": "#0c1321",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            }
+          },
+          "black-alpha": {
+            "50": {
+              "value": "#0000000a",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "100": {
+              "value": "#00000014",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "200": {
+              "value": "#0000001f",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "300": {
+              "value": "#00000029",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "400": {
+              "value": "#0000003d",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "500": {
+              "value": "#00000052",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "600": {
+              "value": "#00000061",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "700": {
+              "value": "#0000008a",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "800": {
+              "value": "#00000099",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "900": {
+              "value": "#000000de",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            }
+          },
+          "white-alpha": {
+            "50": {
+              "value": "#ffffff0a",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "100": {
+              "value": "#ffffff14",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "200": {
+              "value": "#ffffff1f",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "300": {
+              "value": "#ffffff29",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "400": {
+              "value": "#ffffff3d",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "500": {
+              "value": "#ffffff52",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "600": {
+              "value": "#ffffff61",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "700": {
+              "value": "#ffffff8a",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "800": {
+              "value": "#ffffff99",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "900": {
+              "value": "#ffffffde",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            }
+          }
+        },
+        "unused": {
+          "pink": {
+            "50": {
+              "value": "#fce4ec",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "100": {
+              "value": "#f8bbd0",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "200": {
+              "value": "#f48fb1",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "300": {
+              "value": "#f06292",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "400": {
+              "value": "#ec407a",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "500": {
+              "value": "#e91e63",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "600": {
+              "value": "#d81b60",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "700": {
+              "value": "#c2185b",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "800": {
+              "value": "#ad1457",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "900": {
+              "value": "#880e4f",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            }
+          },
+          "deep-purple": {
+            "50": {
+              "value": "#ede7f6",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "100": {
+              "value": "#d1c4e9",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "200": {
+              "value": "#b39ddb",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "300": {
+              "value": "#9575cd",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "400": {
+              "value": "#7e57c2",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "500": {
+              "value": "#673ab7",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "600": {
+              "value": "#5e35b1",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "700": {
+              "value": "#512da8",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "800": {
+              "value": "#4527a0",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "900": {
+              "value": "#311b92",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            }
+          },
+          "indigo": {
+            "50": {
+              "value": "#e8eaf6",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "100": {
+              "value": "#c5cae9",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "200": {
+              "value": "#9fa8da",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "300": {
+              "value": "#7986cb",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "400": {
+              "value": "#5c6bc0",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "500": {
+              "value": "#3f51b5",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "600": {
+              "value": "#3949ab",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "700": {
+              "value": "#303f9f",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "800": {
+              "value": "#283593",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "900": {
+              "value": "#1a237e",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            }
+          },
+          "light-blue": {
+            "50": {
+              "value": "#e1f5fe",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "100": {
+              "value": "#b3e5fc",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "200": {
+              "value": "#81d4fa",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "300": {
+              "value": "#4fc3f7",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "400": {
+              "value": "#29b6f6",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "500": {
+              "value": "#03a9f4",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "600": {
+              "value": "#039be5",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "700": {
+              "value": "#0288d1",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "800": {
+              "value": "#0277bd",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "900": {
+              "value": "#01579b",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            }
+          },
+          "cyan": {
+            "50": {
+              "value": "#e0f7fa",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "100": {
+              "value": "#b2ebf2",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "200": {
+              "value": "#80deea",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "300": {
+              "value": "#4dd0e1",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "400": {
+              "value": "#26c6da",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "500": {
+              "value": "#00bcd4",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "600": {
+              "value": "#00acc1",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "700": {
+              "value": "#0097a7",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "800": {
+              "value": "#00838f",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "900": {
+              "value": "#006064",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            }
+          },
+          "teal": {
+            "50": {
+              "value": "#e0f2f1",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "100": {
+              "value": "#b2dfdb",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "200": {
+              "value": "#80cbc4",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "300": {
+              "value": "#4db6ac",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "400": {
+              "value": "#26a69a",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "500": {
+              "value": "#009688",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "600": {
+              "value": "#00897b",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "700": {
+              "value": "#00796b",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "800": {
+              "value": "#00695c",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "900": {
+              "value": "#004d40",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            }
+          },
+          "light-green": {
+            "50": {
+              "value": "#f1f8e9",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "100": {
+              "value": "#dcedc8",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "200": {
+              "value": "#c5e1a5",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "300": {
+              "value": "#aed581",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "400": {
+              "value": "#9ccc65",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "500": {
+              "value": "#8bc34a",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "600": {
+              "value": "#7cb342",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "700": {
+              "value": "#689f38",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "800": {
+              "value": "#558b2f",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "900": {
+              "value": "#33691e",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            }
+          },
+          "lime": {
+            "50": {
+              "value": "#f9fbe7",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "100": {
+              "value": "#f0f4c3",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "200": {
+              "value": "#e6ee9c",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "300": {
+              "value": "#dce775",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "400": {
+              "value": "#d4e157",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "500": {
+              "value": "#cddc39",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "600": {
+              "value": "#c0ca33",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "700": {
+              "value": "#afb42b",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "800": {
+              "value": "#9e9d24",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "900": {
+              "value": "#827717",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            }
+          },
+          "amber": {
+            "50": {
+              "value": "#fff8e1",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "100": {
+              "value": "#ffecb3",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "200": {
+              "value": "#ffe082",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "300": {
+              "value": "#ffd54f",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "400": {
+              "value": "#ffca28",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "500": {
+              "value": "#ffc107",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "600": {
+              "value": "#ffb300",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "700": {
+              "value": "#ffa000",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "800": {
+              "value": "#ff8f00",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "900": {
+              "value": "#ff6f00",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            }
+          },
+          "deep-orange": {
+            "50": {
+              "value": "#fbe9e7",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "100": {
+              "value": "#ffccbc",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "200": {
+              "value": "#ffab91",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "300": {
+              "value": "#ff8a65",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "400": {
+              "value": "#ff7043",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "500": {
+              "value": "#ff5722",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "600": {
+              "value": "#f4511e",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "700": {
+              "value": "#e64a19",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "800": {
+              "value": "#d84315",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "900": {
+              "value": "#bf360c",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            }
+          },
+          "brown": {
+            "50": {
+              "value": "#efebe9",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "100": {
+              "value": "#d7ccc8",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "200": {
+              "value": "#bcaaa4",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "300": {
+              "value": "#a1887f",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "400": {
+              "value": "#8d6e63",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "500": {
+              "value": "#795548",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "600": {
+              "value": "#6d4c41",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "700": {
+              "value": "#5d4037",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "800": {
+              "value": "#4e342e",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            },
+            "900": {
+              "value": "#3e2723",
+              "type": "color",
+              "description": "Generated from Material Color System"
+            }
+          }
+        }
+      },
+      "semantic-v2": {
+        "theme": {
+          "primary": {
+            "state-layer": {
+              "on-fill": {
+                "hovered": {
+                  "value": "#1f51bc14",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "#1f51bc1a",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "#1f51bc29",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "#1f51bc3d",
+                  "type": "color"
+                },
+                "basis": {
+                  "value": "{albi.color.primitive-colors.core.blue.600}",
+                  "type": "color"
+                }
+              },
+              "on-surface": {
+                "hovered": {
+                  "value": "#e3edff14",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "#e3edff1a",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "#e3edff29",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "#e3edff3d",
+                  "type": "color"
+                },
+                "basis": {
+                  "value": "{albi.color.semantic-v2.theme.primary}",
+                  "type": "color"
+                }
+              }
+            },
+            "value": "{albi.color.primitive-colors.core.blue.200}",
+            "type": "color"
+          },
+          "secondary": {
+            "state-layer": {
+              "on-fill": {
+                "hovered": {
+                  "value": "#2f303c14",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "#2f303c1a",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "#2f303c29",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "#2f303c3d",
+                  "type": "color"
+                },
+                "basis": {
+                  "value": "{albi.color.primitive-colors.core.grey.800}",
+                  "type": "color"
+                }
+              },
+              "on-surface": {
+                "hovered": {
+                  "value": "#ebeef114",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "#ebeef11a",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "#ebeef129",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "#ebeef13d",
+                  "type": "color"
+                },
+                "basis": {
+                  "value": "{albi.color.semantic-v2.theme.secondary}",
+                  "type": "color"
+                }
+              }
+            },
+            "value": "{albi.color.primitive-colors.core.grey.50}",
+            "type": "color"
+          },
+          "warning": {
+            "state-layer": {
+              "on-fill": {
+                "hovered": {
+                  "value": "#4f260514",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "#4f26051a",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "#4f260529",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "#4f26053d",
+                  "type": "color"
+                },
+                "basis": {
+                  "value": "{albi.color.primitive-colors.core.orange.800}",
+                  "type": "color"
+                }
+              },
+              "on-surface": {
+                "hovered": {
+                  "value": "#ffe8da14",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "#ffe8da1a",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "#ffe8da29",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "#ffe8da3d",
+                  "type": "color"
+                },
+                "basis": {
+                  "value": "{albi.color.semantic-v2.theme.warning}",
+                  "type": "color"
+                }
+              }
+            },
+            "value": "{albi.color.primitive-colors.core.orange.200}",
+            "type": "color"
+          },
+          "danger": {
+            "state-layer": {
+              "on-fill": {
+                "hovered": {
+                  "value": "#650f0914",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "#650f091a",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "#650f0929",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "#650f093d",
+                  "type": "color"
+                },
+                "basis": {
+                  "value": "{albi.color.primitive-colors.core.red.800}",
+                  "type": "color"
+                }
+              },
+              "on-surface": {
+                "hovered": {
+                  "value": "#ffe9e514",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "#ffe9e51a",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "#ffe9e529",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "#ffe9e53d",
+                  "type": "color"
+                },
+                "basis": {
+                  "value": "{albi.color.semantic-v2.theme.danger}",
+                  "type": "color"
+                }
+              }
+            },
+            "value": "{albi.color.primitive-colors.core.red.200}",
+            "type": "color"
+          },
+          "success": {
+            "state-layer": {
+              "on-surface": {
+                "hovered": {
+                  "value": "#1a670f14",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "#1a670f1a",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "#1a670f29",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "#1a670f3d",
+                  "type": "color"
+                },
+                "basis": {
+                  "value": "{albi.color.primitive-colors.core.green.600}",
+                  "type": "color"
+                }
+              }
+            }
+          },
+          "on-primary": {
+            "value": "{albi.color.primitive-colors.core.blue.800}",
+            "type": "color"
+          },
+          "on-secondary": {
+            "value": "{albi.color.primitive-colors.core.grey.900}",
+            "type": "color"
+          },
+          "on-danger": {
+            "value": "{albi.color.primitive-colors.core.red.800}",
+            "type": "color"
+          },
+          "on-warning": {
+            "value": "{albi.color.primitive-colors.core.orange.800}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{albi.color.primitive-colors.core.neutral.white}",
+            "type": "color"
+          },
+          "text-secondary": {
+            "value": "{albi.color.primitive-colors.core.grey.300}",
+            "type": "color"
+          }
+        },
+        "button": {
+          "primary": {
+            "on-fill": {
+              "border": {
+                "value": "#ffffff00",
+                "type": "color"
+              },
+              "bg": {
+                "value": "{albi.color.semantic-v2.theme.primary}",
+                "type": "color"
+              },
+              "fg": {
+                "value": "{albi.color.semantic-v2.theme.on-primary}",
+                "type": "color"
+              },
+              "state-layer": {
+                "hovered": {
+                  "value": "{albi.color.semantic-v2.theme.primary.state-layer.on-fill.hovered}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{albi.color.semantic-v2.theme.primary.state-layer.on-fill.pressed}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{albi.color.semantic-v2.theme.primary.state-layer.on-fill.focused}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{albi.color.semantic-v2.theme.primary.state-layer.on-fill.disabled}",
+                  "type": "color"
+                }
+              }
+            },
+            "on-surface": {
+              "bg": {
+                "value": "#ffffff00",
+                "type": "color"
+              },
+              "fg": {
+                "value": "{albi.color.semantic-v2.theme.primary}",
+                "type": "color"
+              },
+              "border": {
+                "value": "{albi.color.semantic-v2.theme.primary}",
+                "type": "color"
+              },
+              "state-layer": {
+                "hovered": {
+                  "value": "{albi.color.semantic-v2.theme.primary.state-layer.on-surface.hovered}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{albi.color.semantic-v2.theme.primary.state-layer.on-surface.pressed}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{albi.color.semantic-v2.theme.primary.state-layer.on-surface.focused}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{albi.color.semantic-v2.theme.primary.state-layer.on-surface.disabled}",
+                  "type": "color"
+                }
+              }
+            }
+          },
+          "danger": {
+            "on-fill": {
+              "border": {
+                "value": "#ffffff00",
+                "type": "color"
+              },
+              "bg": {
+                "value": "{albi.color.semantic-v2.theme.danger}",
+                "type": "color"
+              },
+              "fg": {
+                "value": "{albi.color.semantic-v2.theme.on-danger}",
+                "type": "color"
+              },
+              "state-layer": {
+                "hovered": {
+                  "value": "{albi.color.semantic-v2.theme.danger.state-layer.on-fill.hovered}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{albi.color.semantic-v2.theme.danger.state-layer.on-fill.pressed}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{albi.color.semantic-v2.theme.danger.state-layer.on-fill.focused}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{albi.color.semantic-v2.theme.danger.state-layer.on-fill.disabled}",
+                  "type": "color"
+                }
+              }
+            },
+            "on-surface": {
+              "bg": {
+                "value": "{albi.color.primitive-colors.core.neutral.transparent}",
+                "type": "color"
+              },
+              "fg": {
+                "value": "{albi.color.semantic-v2.theme.danger}",
+                "type": "color"
+              },
+              "border": {
+                "value": "{albi.color.semantic-v2.theme.danger}",
+                "type": "color"
+              },
+              "state-layer": {
+                "hovered": {
+                  "value": "{albi.color.semantic-v2.theme.danger.state-layer.on-surface.hovered}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{albi.color.semantic-v2.theme.danger.state-layer.on-surface.pressed}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{albi.color.semantic-v2.theme.danger.state-layer.on-surface.focused}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{albi.color.semantic-v2.theme.danger.state-layer.on-surface.disabled}",
+                  "type": "color"
+                }
+              }
+            }
+          },
+          "warning": {
+            "on-fill": {
+              "border": {
+                "value": "#ffffff00",
+                "type": "color"
+              },
+              "bg": {
+                "value": "{albi.color.semantic-v2.theme.warning}",
+                "type": "color"
+              },
+              "fg": {
+                "value": "{albi.color.semantic-v2.theme.on-warning}",
+                "type": "color"
+              },
+              "state-layer": {
+                "hovered": {
+                  "value": "{albi.color.semantic-v2.theme.warning.state-layer.on-surface.hovered}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{albi.color.semantic-v2.theme.warning.state-layer.on-surface.pressed}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{albi.color.semantic-v2.theme.warning.state-layer.on-surface.focused}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{albi.color.semantic-v2.theme.warning.state-layer.on-surface.disabled}",
+                  "type": "color"
+                }
+              }
+            },
+            "on-surface": {
+              "bg": {
+                "value": "{albi.color.primitive-colors.core.neutral.transparent}",
+                "type": "color"
+              },
+              "fg": {
+                "value": "{albi.color.semantic-v2.theme.warning}",
+                "type": "color"
+              },
+              "border": {
+                "value": "{albi.color.semantic-v2.theme.warning}",
+                "type": "color"
+              },
+              "state-layer": {
+                "hovered": {
+                  "value": "{albi.color.semantic-v2.theme.warning.state-layer.on-surface.hovered}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{albi.color.semantic-v2.theme.warning.state-layer.on-surface.pressed}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{albi.color.semantic-v2.theme.warning.state-layer.on-surface.focused}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{albi.color.semantic-v2.theme.warning.state-layer.on-surface.disabled}",
+                  "type": "color"
+                }
+              }
+            }
+          },
+          "secondary": {
+            "on-fill": {
+              "bg": {
+                "value": "{albi.color.semantic-v2.theme.secondary}",
+                "type": "color"
+              },
+              "fg": {
+                "value": "{albi.color.semantic-v2.theme.on-secondary}",
+                "type": "color"
+              },
+              "border": {
+                "value": "{albi.color.primitive-colors.core.neutral.transparent}",
+                "type": "color"
+              },
+              "state-layer": {
+                "hovered": {
+                  "value": "{albi.color.semantic-v2.theme.secondary.state-layer.on-fill.hovered}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{albi.color.semantic-v2.theme.secondary.state-layer.on-fill.pressed}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{albi.color.semantic-v2.theme.secondary.state-layer.on-fill.focused}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{albi.color.semantic-v2.theme.secondary.state-layer.on-fill.disabled}",
+                  "type": "color"
+                }
+              }
+            },
+            "on-surface": {
+              "bg": {
+                "value": "{albi.color.primitive-colors.core.neutral.transparent}",
+                "type": "color"
+              },
+              "fg": {
+                "value": "{albi.color.semantic-v2.theme.secondary}",
+                "type": "color"
+              },
+              "border": {
+                "value": "{albi.color.semantic-v2.theme.secondary}",
+                "type": "color"
+              },
+              "state-layer": {
+                "hovered": {
+                  "value": "{albi.color.semantic-v2.theme.secondary.state-layer.on-surface.hovered}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{albi.color.semantic-v2.theme.secondary.state-layer.on-surface.pressed}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{albi.color.semantic-v2.theme.secondary.state-layer.on-surface.focused}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{albi.color.semantic-v2.theme.secondary.state-layer.on-surface.disabled}",
+                  "type": "color"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

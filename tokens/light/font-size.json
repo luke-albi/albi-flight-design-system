@@ -1,0 +1,145 @@
+{
+  "_comment": " This file was generated automatically by Style Dictionary.   Do not edit directly. Changes should be made in Figma.",
+  "albi": {
+    "font-size": {
+      "typography": {
+        "title": {
+          "title-1": {
+            "font-size": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-5}",
+              "type": "fontSize",
+              "description": "Font size for Title/Title-1"
+            }
+          },
+          "title-2": {
+            "font-size": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-4}",
+              "type": "fontSize",
+              "description": "Font size for Title/Title-2"
+            }
+          },
+          "title-3": {
+            "font-size": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-3-5}",
+              "type": "fontSize",
+              "description": "Font size for Title/Title-3"
+            }
+          }
+        },
+        "heading": {
+          "h1": {
+            "font-size": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-3-5}",
+              "type": "fontSize",
+              "description": "Font size for Heading/H1"
+            }
+          },
+          "h2": {
+            "font-size": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-3}",
+              "type": "fontSize",
+              "description": "Font size for Heading/H2"
+            }
+          },
+          "h3": {
+            "font-size": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-2-5}",
+              "type": "fontSize",
+              "description": "Font size for Heading/H3"
+            }
+          },
+          "h4": {
+            "font-size": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-2}",
+              "type": "fontSize",
+              "description": "Font size for Heading/H4"
+            }
+          },
+          "h5": {
+            "font-size": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-1-5}",
+              "type": "fontSize",
+              "description": "Font size for Heading/H5"
+            }
+          },
+          "h6": {
+            "font-size": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-1-25}",
+              "type": "fontSize",
+              "description": "Font size for Heading/H6"
+            }
+          }
+        },
+        "label": {
+          "label-1": {
+            "font-size": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-1}",
+              "type": "fontSize",
+              "description": "Font size for Label/Label-1"
+            }
+          },
+          "label-2": {
+            "font-size": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-0-875}",
+              "type": "fontSize",
+              "description": "Font size for Label/Label-2"
+            }
+          },
+          "label-3": {
+            "font-size": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-0-75}",
+              "type": "fontSize",
+              "description": "Font size for Label/Label-3"
+            }
+          }
+        },
+        "body": {
+          "body-1": {
+            "font-size": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-1-25}",
+              "type": "fontSize",
+              "description": "Font size for Body/Body-1"
+            }
+          },
+          "body-2": {
+            "font-size": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-1}",
+              "type": "fontSize",
+              "description": "Font size for Body/Body-2"
+            }
+          },
+          "body-3": {
+            "font-size": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-0-875}",
+              "type": "fontSize",
+              "description": "Font size for Body/Body-3"
+            }
+          },
+          "body-4": {
+            "font-size": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-0-75}",
+              "type": "fontSize",
+              "description": "Font size for Body/Body-4"
+            }
+          }
+        },
+        "caption": {
+          "caption-1": {
+            "font-size": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-0-625}",
+              "type": "fontSize",
+              "description": "Font size for Caption/Caption-1"
+            }
+          },
+          "caption-2": {
+            "font-size": {
+              "value": "{albi.dimension.rem-scale.dimension.rem-0-5}",
+              "type": "fontSize",
+              "description": "Font size for Caption/Caption-2"
+            }
+          }
+        }
+      }
+    }
+  }
+}

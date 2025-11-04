@@ -1,0 +1,13 @@
+{
+  "_comment": " This file was generated automatically by Style Dictionary.   Do not edit directly. Changes should be made in Figma.",
+  "albi": {
+    "typography": {
+      "typography": {
+        "title-title-1-regular": {
+          "value": "400 {albi.fontSize.typography.title.title-1.font-size}/{albi.lineHeight.typography.title.title-1.line-height} {albi.fontFamily.typography.family.primary}",
+          "type": "typography"
+        }
+      }
+    }
+  }
+}

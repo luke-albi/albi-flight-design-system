@@ -1,0 +1,17 @@
+{
+  "_comment": " This file was generated automatically by Style Dictionary.   Do not edit directly. Changes should be made in Figma.",
+  "albi": {
+    "opacity": {
+      "opacity": {
+        "button": {
+          "disabled": {
+            "fg-opacity": {
+              "value": "0.72",
+              "type": "opacity"
+            }
+          }
+        }
+      }
+    }
+  }
+}

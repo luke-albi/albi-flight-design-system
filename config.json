@@ -1,0 +1,50 @@
+{
+  "source": ["tokens/source/**/*.json"],
+  "log": {
+    "warnings": "warn",
+    "verbosity": "default",
+    "errors": {
+      "brokenReferences": "console"
+    }
+  },
+  "platforms": {
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "assets/css/",
+      "files": [
+        {
+          "destination": "tokens.css",
+          "format": "css/variables",
+          "options": {
+            "outputReferences": false,
+            "showFileHeader": true
+          }
+        }
+      ]
+    },
+    "scss": {
+      "transformGroup": "scss",
+      "buildPath": "assets/css/",
+      "files": [
+        {
+          "destination": "tokens.scss",
+          "format": "scss/variables",
+          "options": {
+            "outputReferences": false,
+            "showFileHeader": true
+          }
+        }
+      ]
+    },
+    "json": {
+      "transformGroup": "js",
+      "buildPath": "tokens/build/",
+      "files": [
+        {
+          "destination": "tokens.json",
+          "format": "json/flat"
+        }
+      ]
+    }
+  }
+}

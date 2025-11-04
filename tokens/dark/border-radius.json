@@ -1,0 +1,95 @@
+{
+  "_comment": " This file was generated automatically by Style Dictionary.   Do not edit directly. Changes should be made in Figma.",
+  "albi": {
+    "border-radius": {
+      "radius": {
+        "border-radius": {
+          "rounded-full": {
+            "value": "999px",
+            "type": "borderRadius",
+            "description": "Radius value for full (tshirt)"
+          },
+          "rounded-none": {
+            "value": "{albi.dimension.rem-scale.dimension.rem-0}",
+            "type": "borderRadius",
+            "description": "Radius value for none (tshirt)"
+          },
+          "rounded-xs": {
+            "value": "{albi.dimension.rem-scale.dimension.rem-0-125}",
+            "type": "borderRadius",
+            "description": "Radius value for xs (tshirt)"
+          },
+          "rounded-sm": {
+            "value": "{albi.dimension.rem-scale.dimension.rem-0-25}",
+            "type": "borderRadius",
+            "description": "Radius value for sm (tshirt)"
+          },
+          "rounded-md": {
+            "value": "{albi.dimension.rem-scale.dimension.rem-0-375}",
+            "type": "borderRadius",
+            "description": "Radius value for md (tshirt)"
+          },
+          "rounded-lg": {
+            "value": "{albi.dimension.rem-scale.dimension.rem-0-5}",
+            "type": "borderRadius",
+            "description": "Radius value for lg (tshirt)"
+          },
+          "rounded-xl": {
+            "value": "{albi.dimension.rem-scale.dimension.rem-0-75}",
+            "type": "borderRadius",
+            "description": "Radius value for xl (tshirt)"
+          },
+          "rounded-2xl": {
+            "value": "{albi.dimension.rem-scale.dimension.rem-1}",
+            "type": "borderRadius",
+            "description": "Radius value for 2xl (tshirt)"
+          },
+          "rounded-3xl": {
+            "value": "{albi.dimension.rem-scale.dimension.rem-1-5}",
+            "type": "borderRadius",
+            "description": "Radius value for 3xl (tshirt)"
+          },
+          "rounded-4xl": {
+            "value": "{albi.dimension.rem-scale.dimension.rem-2}",
+            "type": "borderRadius",
+            "description": "Radius value for 4xl (tshirt)"
+          }
+        },
+        "component": {
+          "field": {
+            "value": "{albi.borderRadius.radius.border-radius.rounded-lg}",
+            "type": "borderRadius"
+          },
+          "chip": {
+            "value": "{albi.borderRadius.radius.border-radius.rounded-full}",
+            "type": "borderRadius"
+          }
+        },
+        "button": {
+          "radius": {
+            "value": "{albi.borderRadius.radius.border-radius.rounded-lg}",
+            "type": "borderRadius"
+          }
+        },
+        "icon-button": {
+          "radius": {
+            "default": {
+              "value": "{albi.borderRadius.radius.border-radius.rounded-lg}",
+              "type": "borderRadius"
+            },
+            "pressed": {
+              "value": "{albi.borderRadius.radius.border-radius.rounded-sm}",
+              "type": "borderRadius"
+            }
+          }
+        },
+        "fab": {
+          "radius": {
+            "value": "{albi.dimension.rem-scale.dimension.rem-1}",
+            "type": "borderRadius"
+          }
+        }
+      }
+    }
+  }
+}

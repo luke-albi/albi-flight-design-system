@@ -1,0 +1,19 @@
+{
+  "name": "albi-flight-design-system",
+  "version": "1.0.0",
+  "description": "Albi Flight Design System - Comprehensive design system documentation",
+  "scripts": {
+    "build:tokens": "style-dictionary build",
+    "watch:tokens": "style-dictionary build --watch"
+  },
+  "keywords": [
+    "design-system",
+    "design-tokens",
+    "albi-flight"
+  ],
+  "author": "Albi Design Systems Team",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "style-dictionary": "^4.0.0"
+  }
+}
