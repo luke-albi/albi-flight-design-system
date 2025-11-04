@@ -5,6 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Button Component - Albi Flight Design System</title>
   <link rel="stylesheet" href="../assets/css/style.css">
+  <style>
+    .figma-screenshot {
+      width: 100%;
+      border: 1px solid #dee2e6;
+      border-radius: 8px;
+      margin: 2rem 0;
+    }
+    .style-section {
+      margin-top: 3rem;
+    }
+    .color-swatch {
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      border-radius: 4px;
+      border: 1px solid #dee2e6;
+      vertical-align: middle;
+      margin-right: 8px;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -21,7 +41,7 @@
         <li><a href="../components.html" class="active">Components</a></li>
         <li><a href="../tokens/colors.html">Tokens</a></li>
         <li><a href="#guidelines">Guidelines</a></li>
-        <li><a href="https://github.com/albi/flight-design-system" target="_blank">GitHub</a></li>
+        <li><a href="https://github.com/luke-albi/albi-flight-design-system" target="_blank">GitHub</a></li>
       </ul>
     </div>
   </nav>
@@ -36,117 +56,241 @@
               <span class="badge badge-stable">v2.1.0</span>
             </div>
             <h1>Button</h1>
-            <p>Primary interactive element for user actions. Supports multiple variants, sizes, and states.</p>
-            <a href="#" class="figma-link">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M12 12.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0zm3.5-7a3.5 3.5 0 0 0 0 7h-7a3.5 3.5 0 1 0 0 7V5.5z"/>
-              </svg>
-              View in Figma
-            </a>
+            <p>Primary interactive element for user actions. Supports multiple styles (Filled, Outlined, Text), color variants, and interaction states.</p>
           </div>
 
           <section>
             <h2>Overview</h2>
-            <p>Buttons are interactive elements that users can click or tap to trigger actions. They should be used for primary actions like submitting forms, confirming operations, or navigating to important pages.</p>
+            <p>Buttons are interactive elements that users can click or tap to trigger actions. The Albi Flight button system provides three distinct styles and four color variants, each with complete interaction states including enabled, hovered, focused, pressed, and disabled.</p>
           </section>
 
           <section>
-            <h2>Variants</h2>
-            <p>The Button component comes in multiple visual variants to indicate hierarchy and importance:</p>
+            <h2>Figma Component</h2>
+            <p>Below is the complete button component system from Figma, showing all style and color combinations with their interaction states:</p>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAACZ8AAAuHCAYAAAA5nXy7AAAgAElEQVR4Aey9CZwdRbX/fya5JGGJgIC..." class="figma-screenshot" alt="Button Component States" style="display: none;">
+            <p style="font-style: italic; color: #6c757d;">Note: Component includes Filled, Outlined, and Text styles across Primary, Secondary, Danger, and Warning color variants with full interaction states.</p>
+          </section>
 
-            <div class="states-grid">
+          <section class="style-section">
+            <h2>Button Styles</h2>
+            <p>The button component comes in three visual styles:</p>
+
+            <h3>1. Filled Style</h3>
+            <p>Solid background buttons for primary actions. Maximum visual weight and attention.</p>
+            <div class="states-grid" style="grid-template-columns: repeat(4, 1fr); margin-top: 1.5rem;">
               <div class="state-example">
-                <div style="padding: 2rem; background: #f5f5f5; border-radius: 8px;">
-                  <button style="background: #0066cc; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 0.5rem; font-weight: 500; cursor: pointer;">Primary Button</button>
+                <div style="padding: 1.5rem; background: #f5f5f5; border-radius: 8px;">
+                  <button style="background: #1f51bc; color: white; padding: 12px 16px; border: none; border-radius: 8px; font-family: Poppins; font-weight: 500; font-size: 16px; cursor: pointer; min-width: 100px;">Label</button>
                 </div>
-                <h4>Primary</h4>
-                <p style="font-size: 0.875rem; color: #666; margin-top: 0.5rem;">Main call-to-action</p>
+                <h4>Primary Filled</h4>
+                <p style="font-size: 0.75rem; color: #666; margin-top: 0.25rem;"><span class="color-swatch" style="background: #1f51bc;"></span>#1f51bc</p>
               </div>
 
               <div class="state-example">
-                <div style="padding: 2rem; background: #f5f5f5; border-radius: 8px;">
-                  <button style="background: #6c757d; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 0.5rem; font-weight: 500; cursor: pointer;">Secondary Button</button>
+                <div style="padding: 1.5rem; background: #f5f5f5; border-radius: 8px;">
+                  <button style="background: #2f303c; color: white; padding: 12px 16px; border: none; border-radius: 8px; font-family: Poppins; font-weight: 500; font-size: 16px; cursor: pointer; min-width: 100px;">Label</button>
                 </div>
-                <h4>Secondary</h4>
-                <p style="font-size: 0.875rem; color: #666; margin-top: 0.5rem;">Secondary actions</p>
+                <h4>Secondary Filled</h4>
+                <p style="font-size: 0.75rem; color: #666; margin-top: 0.25rem;"><span class="color-swatch" style="background: #2f303c;"></span>#2f303c</p>
               </div>
 
               <div class="state-example">
-                <div style="padding: 2rem; background: #f5f5f5; border-radius: 8px;">
-                  <button style="background: transparent; color: #0066cc; padding: 0.75rem 1.5rem; border: 2px solid #0066cc; border-radius: 0.5rem; font-weight: 500; cursor: pointer;">Outline Button</button>
+                <div style="padding: 1.5rem; background: #f5f5f5; border-radius: 8px;">
+                  <button style="background: #b01810; color: white; padding: 12px 16px; border: none; border-radius: 8px; font-family: Poppins; font-weight: 500; font-size: 16px; cursor: pointer; min-width: 100px;">Label</button>
                 </div>
-                <h4>Outline</h4>
-                <p style="font-size: 0.875rem; color: #666; margin-top: 0.5rem;">Tertiary actions</p>
+                <h4>Danger Filled</h4>
+                <p style="font-size: 0.75rem; color: #666; margin-top: 0.25rem;"><span class="color-swatch" style="background: #b01810;"></span>#b01810</p>
               </div>
 
               <div class="state-example">
-                <div style="padding: 2rem; background: #f5f5f5; border-radius: 8px;">
-                  <button style="background: transparent; color: #0066cc; padding: 0.75rem 1.5rem; border: none; border-radius: 0.5rem; font-weight: 500; cursor: pointer;">Ghost Button</button>
+                <div style="padding: 1.5rem; background: #f5f5f5; border-radius: 8px;">
+                  <button style="background: #894610; color: white; padding: 12px 16px; border: none; border-radius: 8px; font-family: Poppins; font-weight: 500; font-size: 16px; cursor: pointer; min-width: 100px;">Label</button>
                 </div>
-                <h4>Ghost</h4>
-                <p style="font-size: 0.875rem; color: #666; margin-top: 0.5rem;">Minimal emphasis</p>
+                <h4>Warning Filled</h4>
+                <p style="font-size: 0.75rem; color: #666; margin-top: 0.25rem;"><span class="color-swatch" style="background: #894610;"></span>#894610</p>
+              </div>
+            </div>
+
+            <h3 style="margin-top: 3rem;">2. Outlined Style</h3>
+            <p>Border-only buttons for secondary actions. Medium visual weight.</p>
+            <div class="states-grid" style="grid-template-columns: repeat(4, 1fr); margin-top: 1.5rem;">
+              <div class="state-example">
+                <div style="padding: 1.5rem; background: #f5f5f5; border-radius: 8px;">
+                  <button style="background: transparent; color: #1f51bc; padding: 10px 14px; border: 2px solid #1f51bc; border-radius: 8px; font-family: Poppins; font-weight: 500; font-size: 16px; cursor: pointer; min-width: 100px;">Label</button>
+                </div>
+                <h4>Primary Outlined</h4>
+                <p style="font-size: 0.75rem; color: #666; margin-top: 0.25rem;"><span class="color-swatch" style="background: transparent; border: 2px solid #1f51bc;"></span>#1f51bc</p>
               </div>
 
               <div class="state-example">
-                <div style="padding: 2rem; background: #f5f5f5; border-radius: 8px;">
-                  <button style="background: #dc3545; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 0.5rem; font-weight: 500; cursor: pointer;">Danger Button</button>
+                <div style="padding: 1.5rem; background: #f5f5f5; border-radius: 8px;">
+                  <button style="background: transparent; color: #2f303c; padding: 10px 14px; border: 2px solid #2f303c; border-radius: 8px; font-family: Poppins; font-weight: 500; font-size: 16px; cursor: pointer; min-width: 100px;">Label</button>
                 </div>
-                <h4>Danger</h4>
-                <p style="font-size: 0.875rem; color: #666; margin-top: 0.5rem;">Destructive actions</p>
+                <h4>Secondary Outlined</h4>
+                <p style="font-size: 0.75rem; color: #666; margin-top: 0.25rem;"><span class="color-swatch" style="background: transparent; border: 2px solid #2f303c;"></span>#2f303c</p>
+              </div>
+
+              <div class="state-example">
+                <div style="padding: 1.5rem; background: #f5f5f5; border-radius: 8px;">
+                  <button style="background: transparent; color: #b01810; padding: 10px 14px; border: 2px solid #b01810; border-radius: 8px; font-family: Poppins; font-weight: 500; font-size: 16px; cursor: pointer; min-width: 100px;">Label</button>
+                </div>
+                <h4>Danger Outlined</h4>
+                <p style="font-size: 0.75rem; color: #666; margin-top: 0.25rem;"><span class="color-swatch" style="background: transparent; border: 2px solid #b01810;"></span>#b01810</p>
+              </div>
+
+              <div class="state-example">
+                <div style="padding: 1.5rem; background: #f5f5f5; border-radius: 8px;">
+                  <button style="background: transparent; color: #894610; padding: 10px 14px; border: 2px solid #894610; border-radius: 8px; font-family: Poppins; font-weight: 500; font-size: 16px; cursor: pointer; min-width: 100px;">Label</button>
+                </div>
+                <h4>Warning Outlined</h4>
+                <p style="font-size: 0.75rem; color: #666; margin-top: 0.25rem;"><span class="color-swatch" style="background: transparent; border: 2px solid #894610;"></span>#894610</p>
+              </div>
+            </div>
+
+            <h3 style="margin-top: 3rem;">3. Text Style</h3>
+            <p>Text-only buttons for tertiary actions. Minimum visual weight.</p>
+            <div class="states-grid" style="grid-template-columns: repeat(4, 1fr); margin-top: 1.5rem;">
+              <div class="state-example">
+                <div style="padding: 1.5rem; background: #f5f5f5; border-radius: 8px;">
+                  <button style="background: transparent; color: #1f51bc; padding: 12px 16px; border: none; border-radius: 8px; font-family: Poppins; font-weight: 500; font-size: 16px; cursor: pointer; min-width: 100px;">Label</button>
+                </div>
+                <h4>Primary Text</h4>
+                <p style="font-size: 0.75rem; color: #666; margin-top: 0.25rem;"><span class="color-swatch" style="background: #1f51bc;"></span>#1f51bc</p>
+              </div>
+
+              <div class="state-example">
+                <div style="padding: 1.5rem; background: #f5f5f5; border-radius: 8px;">
+                  <button style="background: transparent; color: #2f303c; padding: 12px 16px; border: none; border-radius: 8px; font-family: Poppins; font-weight: 500; font-size: 16px; cursor: pointer; min-width: 100px;">Label</button>
+                </div>
+                <h4>Secondary Text</h4>
+                <p style="font-size: 0.75rem; color: #666; margin-top: 0.25rem;"><span class="color-swatch" style="background: #2f303c;"></span>#2f303c</p>
+              </div>
+
+              <div class="state-example">
+                <div style="padding: 1.5rem; background: #f5f5f5; border-radius: 8px;">
+                  <button style="background: transparent; color: #b01810; padding: 12px 16px; border: none; border-radius: 8px; font-family: Poppins; font-weight: 500; font-size: 16px; cursor: pointer; min-width: 100px;">Label</button>
+                </div>
+                <h4>Danger Text</h4>
+                <p style="font-size: 0.75rem; color: #666; margin-top: 0.25rem;"><span class="color-swatch" style="background: #b01810;"></span>#b01810</p>
+              </div>
+
+              <div class="state-example">
+                <div style="padding: 1.5rem; background: #f5f5f5; border-radius: 8px;">
+                  <button style="background: transparent; color: #894610; padding: 12px 16px; border: none; border-radius: 8px; font-family: Poppins; font-weight: 500; font-size: 16px; cursor: pointer; min-width: 100px;">Label</button>
+                </div>
+                <h4>Warning Text</h4>
+                <p style="font-size: 0.75rem; color: #666; margin-top: 0.25rem;"><span class="color-swatch" style="background: #894610;"></span>#894610</p>
               </div>
             </div>
           </section>
 
+          <section class="style-section">
+            <h2>Interaction States</h2>
+            <p>All button variants support the following interaction states:</p>
+
+            <table class="props-table">
+              <thead>
+                <tr>
+                  <th>State</th>
+                  <th>Description</th>
+                  <th>State Layer (Filled)</th>
+                  <th>State Layer (Outlined/Text)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Enabled</strong></td>
+                  <td>Default resting state</td>
+                  <td>None</td>
+                  <td>None</td>
+                </tr>
+                <tr>
+                  <td><strong>Hovered</strong></td>
+                  <td>Mouse cursor over button</td>
+                  <td>White 8% opacity (#ffffff14)</td>
+                  <td>Color 8% opacity</td>
+                </tr>
+                <tr>
+                  <td><strong>Focused</strong></td>
+                  <td>Keyboard focus or tap</td>
+                  <td>White 16% opacity (#ffffff29)</td>
+                  <td>Color 16% opacity</td>
+                </tr>
+                <tr>
+                  <td><strong>Pressed</strong></td>
+                  <td>Active click/tap</td>
+                  <td>White 10% opacity (#ffffff1a)</td>
+                  <td>Color 10% opacity</td>
+                </tr>
+                <tr>
+                  <td><strong>Disabled</strong></td>
+                  <td>Non-interactive state</td>
+                  <td>White 24% opacity (#ffffff3d)<br>72% foreground opacity</td>
+                  <td>Color 24% opacity<br>72% foreground opacity</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+
           <section>
-            <h2>States</h2>
-            <p>Buttons support multiple interactive states:</p>
+            <h2>Design Tokens</h2>
+            <p>Button component uses the following design tokens from Figma:</p>
 
-            <div class="states-grid">
-              <div class="state-example">
-                <div style="padding: 2rem; background: #f5f5f5; border-radius: 8px;">
-                  <button style="background: #0066cc; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 0.5rem; font-weight: 500; cursor: pointer;">Default</button>
-                </div>
-                <h4>Default</h4>
-              </div>
+            <h3>Typography</h3>
+            <ul style="padding-left: 2rem; margin: 1rem 0;">
+              <li><strong>Font Family:</strong> Poppins</li>
+              <li><strong>Font Weight:</strong> 500 (Medium)</li>
+              <li><strong>Font Size:</strong> 16px</li>
+              <li><strong>Line Height:</strong> 24px</li>
+              <li><strong>Letter Spacing:</strong> 0</li>
+            </ul>
 
-              <div class="state-example">
-                <div style="padding: 2rem; background: #f5f5f5; border-radius: 8px;">
-                  <button style="background: #0052a3; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 0.5rem; font-weight: 500; cursor: pointer; box-shadow: 0 2px 8px rgba(0,102,204,0.3);">Hover</button>
-                </div>
-                <h4>Hover</h4>
-              </div>
+            <h3>Spacing (Small Size)</h3>
+            <ul style="padding-left: 2rem; margin: 1rem 0;">
+              <li><strong>Padding X:</strong> 16px</li>
+              <li><strong>Padding Y:</strong> 12px</li>
+              <li><strong>Gap (icon spacing):</strong> 8px</li>
+              <li><strong>Border Radius:</strong> 8px</li>
+              <li><strong>Border Width (outlined):</strong> 2px</li>
+            </ul>
 
-              <div class="state-example">
-                <div style="padding: 2rem; background: #f5f5f5; border-radius: 8px;">
-                  <button style="background: #003d7a; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 0.5rem; font-weight: 500; cursor: pointer;">Active</button>
-                </div>
-                <h4>Active</h4>
-              </div>
-
-              <div class="state-example">
-                <div style="padding: 2rem; background: #f5f5f5; border-radius: 8px;">
-                  <button style="background: #0066cc; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 0.5rem; font-weight: 500; cursor: pointer; box-shadow: 0 0 0 3px rgba(0,102,204,0.3);">Focused</button>
-                </div>
-                <h4>Focused</h4>
-              </div>
-
-              <div class="state-example">
-                <div style="padding: 2rem; background: #f5f5f5; border-radius: 8px;">
-                  <button style="background: #e9ecef; color: #6c757d; padding: 0.75rem 1.5rem; border: none; border-radius: 0.5rem; font-weight: 500; cursor: not-allowed; opacity: 0.6;">Disabled</button>
-                </div>
-                <h4>Disabled</h4>
-              </div>
-
-              <div class="state-example">
-                <div style="padding: 2rem; background: #f5f5f5; border-radius: 8px;">
-                  <button style="background: #0066cc; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 0.5rem; font-weight: 500; cursor: wait; display: flex; align-items: center; gap: 0.5rem;">
-                    <span style="width: 16px; height: 16px; border: 2px solid white; border-top-color: transparent; border-radius: 50%; animation: spin 0.8s linear infinite;"></span>
-                    Loading
-                  </button>
-                </div>
-                <h4>Loading</h4>
-              </div>
-            </div>
+            <h3>Colors</h3>
+            <table class="props-table" style="margin-top: 1rem;">
+              <thead>
+                <tr>
+                  <th>Variant</th>
+                  <th>Background (Filled)</th>
+                  <th>Foreground</th>
+                  <th>Border (Outlined)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Primary</strong></td>
+                  <td><span class="color-swatch" style="background: #1f51bc;"></span>#1f51bc</td>
+                  <td><span class="color-swatch" style="background: #ffffff;"></span>#ffffff</td>
+                  <td><span class="color-swatch" style="background: #1f51bc;"></span>#1f51bc</td>
+                </tr>
+                <tr>
+                  <td><strong>Secondary</strong></td>
+                  <td><span class="color-swatch" style="background: #2f303c;"></span>#2f303c</td>
+                  <td><span class="color-swatch" style="background: #ffffff;"></span>#ffffff</td>
+                  <td><span class="color-swatch" style="background: #2f303c;"></span>#2f303c</td>
+                </tr>
+                <tr>
+                  <td><strong>Danger</strong></td>
+                  <td><span class="color-swatch" style="background: #b01810;"></span>#b01810</td>
+                  <td><span class="color-swatch" style="background: #ffffff;"></span>#ffffff</td>
+                  <td><span class="color-swatch" style="background: #b01810;"></span>#b01810</td>
+                </tr>
+                <tr>
+                  <td><strong>Warning</strong></td>
+                  <td><span class="color-swatch" style="background: #894610;"></span>#894610</td>
+                  <td><span class="color-swatch" style="background: #ffffff;"></span>#ffffff</td>
+                  <td><span class="color-swatch" style="background: #894610;"></span>#894610</td>
+                </tr>
+              </tbody>
+            </table>
           </section>
 
           <section>
@@ -162,15 +306,21 @@
               </thead>
               <tbody>
                 <tr>
-                  <td><code>variant</code></td>
-                  <td><code>"primary" | "secondary" | "outline" | "ghost" | "danger"</code></td>
-                  <td><code>"primary"</code></td>
+                  <td><code>style</code></td>
+                  <td><code>"filled" | "outlined" | "text"</code></td>
+                  <td><code>"filled"</code></td>
                   <td>Visual style variant</td>
                 </tr>
                 <tr>
+                  <td><code>color</code></td>
+                  <td><code>"primary" | "secondary" | "danger" | "warning"</code></td>
+                  <td><code>"primary"</code></td>
+                  <td>Color variant</td>
+                </tr>
+                <tr>
                   <td><code>size</code></td>
-                  <td><code>"sm" | "md" | "lg"</code></td>
-                  <td><code>"md"</code></td>
+                  <td><code>"small" | "medium" | "large"</code></td>
+                  <td><code>"small"</code></td>
                   <td>Button size</td>
                 </tr>
                 <tr>
@@ -195,7 +345,7 @@
                   <td><code>icon</code></td>
                   <td><code>ReactNode</code></td>
                   <td><code>undefined</code></td>
-                  <td>Optional icon element</td>
+                  <td>Optional icon element (8px gap)</td>
                 </tr>
                 <tr>
                   <td><code>onClick</code></td>
@@ -214,21 +364,23 @@
               <div class="do-list">
                 <h3>Do</h3>
                 <ul>
-                  <li>Use for primary actions users should take</li>
+                  <li>Use Filled style for primary actions</li>
+                  <li>Use Outlined style for secondary actions</li>
+                  <li>Use Text style for tertiary or inline actions</li>
                   <li>Limit to 1-2 primary buttons per screen</li>
                   <li>Use clear, action-oriented labels</li>
-                  <li>Ensure adequate touch target size (44x44px minimum)</li>
-                  <li>Provide visual feedback on interaction</li>
+                  <li>Maintain consistent color meaning (Danger for destructive)</li>
                 </ul>
               </div>
 
               <div class="dont-list">
                 <h3>Don't</h3>
                 <ul>
-                  <li>Don't use multiple primary buttons together</li>
+                  <li>Don't use multiple Filled Primary buttons together</li>
+                  <li>Don't mix button styles randomly without hierarchy</li>
                   <li>Don't use for navigation (use links instead)</li>
                   <li>Don't use vague labels like "Click here"</li>
-                  <li>Don't make buttons too small to tap</li>
+                  <li>Don't make buttons too small to tap (min 48px)</li>
                   <li>Don't use disabled state without explanation</li>
                 </ul>
               </div>
@@ -236,28 +388,28 @@
           </section>
 
           <section>
-            <h2>Accessibility</h2>
-            <ul style="padding-left: 2rem;">
-              <li><strong>Keyboard Navigation:</strong> Fully accessible via Tab and Enter/Space keys</li>
-              <li><strong>Screen Readers:</strong> Use aria-label when button text isn't descriptive</li>
-              <li><strong>Focus Indication:</strong> Clear focus ring for keyboard users</li>
-              <li><strong>Loading State:</strong> Announce loading state with aria-busy</li>
-              <li><strong>Disabled State:</strong> Use aria-disabled and provide context</li>
-            </ul>
-          </section>
-
-          <section>
             <h2>Code Example</h2>
             <pre><code>import { Button } from '@albi/flight';
 
-// Primary button
-&lt;Button variant="primary" onClick={handleSubmit}&gt;
+// Filled Primary Button (default)
+&lt;Button&gt;
   Submit Form
+&lt;/Button&gt;
+
+// Outlined Secondary Button
+&lt;Button style="outlined" color="secondary"&gt;
+  Cancel
+&lt;/Button&gt;
+
+// Text Danger Button
+&lt;Button style="text" color="danger"&gt;
+  Delete
 &lt;/Button&gt;
 
 // Button with loading state
 &lt;Button
-  variant="primary"
+  style="filled"
+  color="primary"
   loading={isLoading}
   disabled={isLoading}
   onClick={handleSave}
@@ -266,25 +418,38 @@
 &lt;/Button&gt;
 
 // Button with icon
-&lt;Button variant="secondary" icon={&lt;PlusIcon /&gt;}&gt;
+&lt;Button style="outlined" icon={&lt;PlusIcon /&gt;}&gt;
   Add Item
 &lt;/Button&gt;</code></pre>
+          </section>
+
+          <section>
+            <h2>Accessibility</h2>
+            <ul style="padding-left: 2rem;">
+              <li><strong>Keyboard Navigation:</strong> Fully accessible via Tab and Enter/Space keys</li>
+              <li><strong>Focus Indicators:</strong> 16% opacity state layer on focus</li>
+              <li><strong>Screen Readers:</strong> Use aria-label when button text isn't descriptive</li>
+              <li><strong>Disabled State:</strong> Use aria-disabled and provide context why button is disabled</li>
+              <li><strong>Loading State:</strong> Announce loading state with aria-busy="true"</li>
+              <li><strong>Color Contrast:</strong> All color combinations meet WCAG AA standards</li>
+            </ul>
           </section>
 
           <section>
             <h2>Platform-Specific Notes</h2>
             <h3>Web</h3>
             <ul style="padding-left: 2rem;">
-              <li>Supports hover states and cursor changes</li>
+              <li>Supports hover states with 8% opacity state layer</li>
               <li>Can be used as a link with <code>href</code> prop</li>
-              <li>Supports <code>target</code> and <code>rel</code> attributes for links</li>
+              <li>Cursor changes to pointer on hover</li>
             </ul>
 
             <h3>Mobile</h3>
             <ul style="padding-left: 2rem;">
               <li>Uses haptic feedback on press</li>
-              <li>Larger default touch targets (48x48dp)</li>
-              <li>No hover state (uses press state instead)</li>
+              <li>Larger minimum touch targets (48x48dp)</li>
+              <li>No hover state (uses pressed state instead)</li>
+              <li>Optimized tap animations with state layers</li>
             </ul>
           </section>
         </div>
@@ -293,8 +458,9 @@
           <h3>On This Page</h3>
           <ul>
             <li><a href="#overview">Overview</a></li>
-            <li><a href="#variants">Variants</a></li>
-            <li><a href="#states">States</a></li>
+            <li><a href="#button-styles">Button Styles</a></li>
+            <li><a href="#interaction-states">Interaction States</a></li>
+            <li><a href="#design-tokens">Design Tokens</a></li>
             <li><a href="#props">Props</a></li>
             <li><a href="#usage">Usage Guidelines</a></li>
             <li><a href="#accessibility">Accessibility</a></li>
@@ -312,8 +478,9 @@
           <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #dee2e6;">
             <p style="font-size: 0.75rem; color: #6c757d;">
               <strong>Version:</strong> 2.1.0<br>
-              <strong>Last Updated:</strong> Nov 3, 2025<br>
-              <strong>Status:</strong> Stable
+              <strong>Last Updated:</strong> Nov 4, 2025<br>
+              <strong>Status:</strong> Stable<br>
+              <strong>Figma:</strong> Synced
             </p>
           </div>
         </div>
@@ -328,10 +495,5 @@
   </footer>
 
   <script src="../assets/js/main.js"></script>
-  <style>
-    @keyframes spin {
-      to { transform: rotate(360deg); }
-    }
-  </style>
 </body>
 </html>
