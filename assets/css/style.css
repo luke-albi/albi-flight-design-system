@@ -41,6 +41,11 @@ body {
   line-height: 1.6;
   color: var(--gray-900);
   background: #fff;
+  scroll-padding-top: 80px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .container {
