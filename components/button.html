@@ -245,63 +245,129 @@
 
           <section id="tokens">
             <h2>Design Tokens</h2>
-            <p>Button component uses the following design tokens from Figma:</p>
+            <p>Button component uses the following design tokens from Figma. All values are available as CSS custom properties:</p>
 
-            <h3>Typography</h3>
-            <ul style="padding-left: 2rem; margin: 1rem 0;">
-              <li><strong>Font Family:</strong> Poppins</li>
-              <li><strong>Font Weight:</strong> 500 (Medium)</li>
-              <li><strong>Font Size:</strong> 16px</li>
-              <li><strong>Line Height:</strong> 24px</li>
-              <li><strong>Letter Spacing:</strong> 0</li>
-            </ul>
+            <h3>Typography Tokens</h3>
+            <table class="props-table">
+              <thead>
+                <tr>
+                  <th>Property</th>
+                  <th>Token</th>
+                  <th>Value</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Font Family</td>
+                  <td><code>--albi-font-family-typography-family-primary</code></td>
+                  <td>Poppins</td>
+                </tr>
+                <tr>
+                  <td>Font Weight</td>
+                  <td>CSS</td>
+                  <td>500 (Medium)</td>
+                </tr>
+                <tr>
+                  <td>Font Size</td>
+                  <td><code>--albi-font-size-typography-body-body-1-font-size</code></td>
+                  <td>16px</td>
+                </tr>
+                <tr>
+                  <td>Line Height</td>
+                  <td><code>--albi-line-height-typography-body-body-1-line-height</code></td>
+                  <td>24px</td>
+                </tr>
+              </tbody>
+            </table>
 
-            <h3>Spacing (Small Size)</h3>
-            <ul style="padding-left: 2rem; margin: 1rem 0;">
-              <li><strong>Padding X:</strong> 16px</li>
-              <li><strong>Padding Y:</strong> 12px</li>
-              <li><strong>Gap (icon spacing):</strong> 8px</li>
-              <li><strong>Border Radius:</strong> 8px</li>
-              <li><strong>Border Width (outlined):</strong> 2px</li>
-            </ul>
+            <h3>Spacing Tokens</h3>
+            <table class="props-table">
+              <thead>
+                <tr>
+                  <th>Property</th>
+                  <th>Token</th>
+                  <th>Value</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Padding X</td>
+                  <td><code>--albi-space-space-md</code></td>
+                  <td>16px</td>
+                </tr>
+                <tr>
+                  <td>Padding Y</td>
+                  <td><code>--albi-space-space-sm</code> + <code>--albi-space-space-xs</code></td>
+                  <td>12px (8px + 4px)</td>
+                </tr>
+                <tr>
+                  <td>Icon Gap</td>
+                  <td><code>--albi-space-space-sm</code></td>
+                  <td>8px</td>
+                </tr>
+                <tr>
+                  <td>Border Radius</td>
+                  <td><code>--albi-border-radius-radius-border-radius-rounded-lg</code></td>
+                  <td>8px</td>
+                </tr>
+              </tbody>
+            </table>
 
-            <h3>Colors</h3>
+            <h3>Color Tokens</h3>
             <table class="props-table" style="margin-top: 1rem;">
               <thead>
                 <tr>
                   <th>Variant</th>
-                  <th>Background (Filled)</th>
-                  <th>Foreground</th>
-                  <th>Border (Outlined)</th>
+                  <th>Color Token</th>
+                  <th>Hex Value</th>
+                  <th>Preview</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td><strong>Primary</strong></td>
-                  <td><span class="color-swatch" style="background: #1f51bc;"></span>#1f51bc</td>
-                  <td><span class="color-swatch" style="background: #ffffff;"></span>#ffffff</td>
-                  <td><span class="color-swatch" style="background: #1f51bc;"></span>#1f51bc</td>
+                  <td><code>--albi-color-primitive-colors-core-blue-600</code></td>
+                  <td>#1f51bc</td>
+                  <td><span class="color-swatch" style="background: #1f51bc;"></span></td>
                 </tr>
                 <tr>
                   <td><strong>Secondary</strong></td>
-                  <td><span class="color-swatch" style="background: #2f303c;"></span>#2f303c</td>
-                  <td><span class="color-swatch" style="background: #ffffff;"></span>#ffffff</td>
-                  <td><span class="color-swatch" style="background: #2f303c;"></span>#2f303c</td>
+                  <td><code>--albi-color-primitive-colors-core-grey-800</code></td>
+                  <td>#2f303c</td>
+                  <td><span class="color-swatch" style="background: #2f303c;"></span></td>
                 </tr>
                 <tr>
                   <td><strong>Danger</strong></td>
-                  <td><span class="color-swatch" style="background: #b01810;"></span>#b01810</td>
-                  <td><span class="color-swatch" style="background: #ffffff;"></span>#ffffff</td>
-                  <td><span class="color-swatch" style="background: #b01810;"></span>#b01810</td>
+                  <td><code>--albi-color-primitive-colors-core-red-600</code></td>
+                  <td>#b01810</td>
+                  <td><span class="color-swatch" style="background: #b01810;"></span></td>
                 </tr>
                 <tr>
                   <td><strong>Warning</strong></td>
-                  <td><span class="color-swatch" style="background: #894610;"></span>#894610</td>
-                  <td><span class="color-swatch" style="background: #ffffff;"></span>#ffffff</td>
-                  <td><span class="color-swatch" style="background: #894610;"></span>#894610</td>
+                  <td><code>--albi-color-primitive-colors-core-orange-600</code></td>
+                  <td>#894610</td>
+                  <td><span class="color-swatch" style="background: #894610;"></span></td>
+                </tr>
+                <tr>
+                  <td><strong>White (Text)</strong></td>
+                  <td><code>--albi-color-primitive-colors-core-neutral-white</code></td>
+                  <td>#ffffff</td>
+                  <td><span class="color-swatch" style="background: #ffffff;"></span></td>
                 </tr>
               </tbody>
             </table>
+
+            <h3>CSS Implementation</h3>
+            <pre><code>/* Using design tokens */
+.button-primary {
+  background: var(--albi-color-primitive-colors-core-blue-600);
+  color: var(--albi-color-primitive-colors-core-neutral-white);
+  padding: 12px var(--albi-space-space-md);
+  border-radius: var(--albi-border-radius-radius-border-radius-rounded-lg);
+  font-family: var(--albi-font-family-typography-family-primary);
+  font-size: var(--albi-font-size-typography-body-body-1-font-size);
+  font-weight: 500;
+}</code></pre>
           </section>
 
           <section id="props">

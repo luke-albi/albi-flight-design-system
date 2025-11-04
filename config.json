@@ -1,5 +1,8 @@
 {
-  "source": ["tokens/source/**/*.json"],
+  "source": [
+    "tokens/source/**/*.json",
+    "tokens/light/**/*.json"
+  ],
   "log": {
     "warnings": "warn",
     "verbosity": "default",

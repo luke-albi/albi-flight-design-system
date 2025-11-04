@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Color Tokens - Albi Flight Design System</title>
+  <link rel="stylesheet" href="../assets/css/tokens.css">
   <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
@@ -21,7 +22,7 @@
         <li><a href="../components.html">Components</a></li>
         <li><a href="colors.html" class="active">Tokens</a></li>
         <li><a href="#guidelines">Guidelines</a></li>
-        <li><a href="https://github.com/albi/flight-design-system" target="_blank">GitHub</a></li>
+        <li><a href="https://github.com/luke-albi/albi-flight-design-system" target="_blank">GitHub</a></li>
       </ul>
     </div>
   </nav>
@@ -30,124 +31,458 @@
     <div class="container">
       <div class="page-header">
         <h1>Color Tokens</h1>
-        <p>Primary, secondary, semantic colors, and full color palette with accessibility considerations.</p>
+        <p>Complete color system from Figma with brand colors, semantic scales, and accessibility guidelines.</p>
       </div>
 
       <section>
         <h2>Brand Colors</h2>
-        <p>Core brand colors used throughout the design system.</p>
+        <p>Primary brand colors used throughout the Albi Flight design system.</p>
         <div class="token-grid">
           <div class="token-item">
-            <div class="token-preview" style="background: #0066cc;"></div>
-            <div class="token-name">--primary</div>
-            <div class="token-value">#0066cc</div>
+            <div class="token-preview" style="background: #2463eb;"></div>
+            <div class="token-name">--albi-color-brand-sky</div>
+            <div class="token-value">#2463eb</div>
+            <p style="font-size: 0.75rem; color: #636e80; margin-top: 0.5rem;">Primary brand color</p>
           </div>
 
           <div class="token-item">
-            <div class="token-preview" style="background: #0052a3;"></div>
-            <div class="token-name">--primary-hover</div>
-            <div class="token-value">#0052a3</div>
-          </div>
-
-          <div class="token-item">
-            <div class="token-preview" style="background: #6c757d;"></div>
-            <div class="token-name">--secondary</div>
-            <div class="token-value">#6c757d</div>
+            <div class="token-preview" style="background: #ff861e;"></div>
+            <div class="token-name">--albi-color-brand-apricot</div>
+            <div class="token-value">#ff861e</div>
+            <p style="font-size: 0.75rem; color: #636e80; margin-top: 0.5rem;">Secondary brand color</p>
           </div>
         </div>
       </section>
 
       <section>
-        <h2>Semantic Colors</h2>
-        <p>Colors used to convey meaning and state.</p>
+        <h2>Core Blue Scale</h2>
+        <p>Primary blue color scale (50-900) used for interactive elements, buttons, and links.</p>
         <div class="token-grid">
           <div class="token-item">
-            <div class="token-preview" style="background: #28a745;"></div>
-            <div class="token-name">--success</div>
-            <div class="token-value">#28a745</div>
+            <div class="token-preview" style="background: #f3f7ff;"></div>
+            <div class="token-name">blue-50</div>
+            <div class="token-value">#f3f7ff</div>
           </div>
-
           <div class="token-item">
-            <div class="token-preview" style="background: #dc3545;"></div>
-            <div class="token-name">--danger</div>
-            <div class="token-value">#dc3545</div>
+            <div class="token-preview" style="background: #e3edff;"></div>
+            <div class="token-name">blue-100</div>
+            <div class="token-value">#e3edff</div>
           </div>
-
           <div class="token-item">
-            <div class="token-preview" style="background: #ffc107;"></div>
-            <div class="token-name">--warning</div>
-            <div class="token-value">#ffc107</div>
+            <div class="token-preview" style="background: #a6c5ff;"></div>
+            <div class="token-name">blue-200</div>
+            <div class="token-value">#a6c5ff</div>
           </div>
-
           <div class="token-item">
-            <div class="token-preview" style="background: #17a2b8;"></div>
-            <div class="token-name">--info</div>
-            <div class="token-value">#17a2b8</div>
+            <div class="token-preview" style="background: #79a5f9;"></div>
+            <div class="token-name">blue-300</div>
+            <div class="token-value">#79a5f9</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #457ae7;"></div>
+            <div class="token-name">blue-400</div>
+            <div class="token-value">#457ae7</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #2463eb; color: white; display: flex; align-items: center; justify-content: center; font-weight: 600;">★</div>
+            <div class="token-name">blue-500</div>
+            <div class="token-value">#2463eb</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #1f51bc; color: white; display: flex; align-items: center; justify-content: center; font-weight: 600;">PRIMARY</div>
+            <div class="token-name">blue-600</div>
+            <div class="token-value">#1f51bc</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #1d408e; color: white;"></div>
+            <div class="token-name">blue-700</div>
+            <div class="token-value">#1d408e</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #162f63; color: white;"></div>
+            <div class="token-name">blue-800</div>
+            <div class="token-value">#162f63</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #0a1a3b; color: white;"></div>
+            <div class="token-name">blue-900</div>
+            <div class="token-value">#0a1a3b</div>
           </div>
         </div>
       </section>
 
       <section>
-        <h2>Neutral Colors</h2>
-        <p>Grayscale palette for backgrounds, borders, and text.</p>
+        <h2>Core Grey Scale</h2>
+        <p>Neutral gray scale for backgrounds, borders, text, and UI elements.</p>
         <div class="token-grid">
           <div class="token-item">
-            <div class="token-preview" style="background: #212529; border: none;"></div>
-            <div class="token-name">--gray-900</div>
-            <div class="token-value">#212529</div>
+            <div class="token-preview" style="background: #f6f8fa;"></div>
+            <div class="token-name">grey-50</div>
+            <div class="token-value">#f6f8fa</div>
           </div>
-
           <div class="token-item">
-            <div class="token-preview" style="background: #495057;"></div>
-            <div class="token-name">--gray-700</div>
-            <div class="token-value">#495057</div>
+            <div class="token-preview" style="background: #ebeef1;"></div>
+            <div class="token-name">grey-100</div>
+            <div class="token-value">#ebeef1</div>
           </div>
-
           <div class="token-item">
-            <div class="token-preview" style="background: #6c757d;"></div>
-            <div class="token-name">--gray-600</div>
-            <div class="token-value">#6c757d</div>
+            <div class="token-preview" style="background: #c0c8d2;"></div>
+            <div class="token-name">grey-200</div>
+            <div class="token-value">#c0c8d2</div>
           </div>
-
           <div class="token-item">
-            <div class="token-preview" style="background: #adb5bd;"></div>
-            <div class="token-name">--gray-500</div>
-            <div class="token-value">#adb5bd</div>
+            <div class="token-preview" style="background: #9ea7b5;"></div>
+            <div class="token-name">grey-300</div>
+            <div class="token-value">#9ea7b5</div>
           </div>
-
           <div class="token-item">
-            <div class="token-preview" style="background: #dee2e6;"></div>
-            <div class="token-name">--gray-300</div>
-            <div class="token-value">#dee2e6</div>
+            <div class="token-preview" style="background: #767f8e;"></div>
+            <div class="token-name">grey-400</div>
+            <div class="token-value">#767f8e</div>
           </div>
-
           <div class="token-item">
-            <div class="token-preview" style="background: #e9ecef;"></div>
-            <div class="token-name">--gray-200</div>
-            <div class="token-value">#e9ecef</div>
+            <div class="token-preview" style="background: #636e80; color: white;"></div>
+            <div class="token-name">grey-500</div>
+            <div class="token-value">#636e80</div>
           </div>
-
           <div class="token-item">
-            <div class="token-preview" style="background: #f8f9fa;"></div>
-            <div class="token-name">--gray-100</div>
-            <div class="token-value">#f8f9fa</div>
+            <div class="token-preview" style="background: #525767; color: white;"></div>
+            <div class="token-name">grey-600</div>
+            <div class="token-value">#525767</div>
           </div>
-
           <div class="token-item">
-            <div class="token-preview" style="background: #ffffff;"></div>
-            <div class="token-name">--white</div>
-            <div class="token-value">#ffffff</div>
+            <div class="token-preview" style="background: #404552; color: white;"></div>
+            <div class="token-name">grey-700</div>
+            <div class="token-value">#404552</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #2f303c; color: white; display: flex; align-items: center; justify-content: center; font-weight: 600;">SECONDARY</div>
+            <div class="token-name">grey-800</div>
+            <div class="token-value">#2f303c</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #1a1b25; color: white;"></div>
+            <div class="token-name">grey-900</div>
+            <div class="token-value">#1a1b25</div>
           </div>
         </div>
+      </section>
+
+      <section>
+        <h2>Core Red Scale (Danger)</h2>
+        <p>Red scale for error states, destructive actions, and critical alerts.</p>
+        <div class="token-grid">
+          <div class="token-item">
+            <div class="token-preview" style="background: #fff6f4;"></div>
+            <div class="token-name">red-50</div>
+            <div class="token-value">#fff6f4</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #ffe9e5;"></div>
+            <div class="token-name">red-100</div>
+            <div class="token-value">#ffe9e5</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #ffb6aa;"></div>
+            <div class="token-name">red-200</div>
+            <div class="token-value">#ffb6aa</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #fa8575;"></div>
+            <div class="token-name">red-300</div>
+            <div class="token-value">#fa8575</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #ed3629; color: white;"></div>
+            <div class="token-name">red-400</div>
+            <div class="token-value">#ed3629</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #d4241a; color: white;"></div>
+            <div class="token-name">red-500</div>
+            <div class="token-value">#d4241a</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #b01810; color: white; display: flex; align-items: center; justify-content: center; font-weight: 600;">DANGER</div>
+            <div class="token-name">red-600</div>
+            <div class="token-value">#b01810</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #8b120c; color: white;"></div>
+            <div class="token-name">red-700</div>
+            <div class="token-value">#8b120c</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #650f09; color: white;"></div>
+            <div class="token-name">red-800</div>
+            <div class="token-value">#650f09</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #400302; color: white;"></div>
+            <div class="token-name">red-900</div>
+            <div class="token-value">#400302</div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Core Green Scale (Success)</h2>
+        <p>Green scale for success states, confirmations, and positive feedback.</p>
+        <div class="token-grid">
+          <div class="token-item">
+            <div class="token-preview" style="background: #e5ffe2;"></div>
+            <div class="token-name">green-50</div>
+            <div class="token-value">#e5ffe2</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #cff9c9;"></div>
+            <div class="token-name">green-100</div>
+            <div class="token-value">#cff9c9</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #7adc6e;"></div>
+            <div class="token-name">green-200</div>
+            <div class="token-value">#7adc6e</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #43bd34;"></div>
+            <div class="token-name">green-300</div>
+            <div class="token-value">#43bd34</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #199200; color: white;"></div>
+            <div class="token-name">green-400</div>
+            <div class="token-value">#199200</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #1e7e10; color: white;"></div>
+            <div class="token-name">green-500</div>
+            <div class="token-value">#1e7e10</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #1a670f; color: white; display: flex; align-items: center; justify-content: center; font-weight: 600;">SUCCESS</div>
+            <div class="token-name">green-600</div>
+            <div class="token-value">#1a670f</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #184f11; color: white;"></div>
+            <div class="token-name">green-700</div>
+            <div class="token-value">#184f11</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #11390c; color: white;"></div>
+            <div class="token-name">green-800</div>
+            <div class="token-value">#11390c</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #0a2107; color: white;"></div>
+            <div class="token-name">green-900</div>
+            <div class="token-value">#0a2107</div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Core Orange Scale (Warning)</h2>
+        <p>Orange scale for warning states, caution messages, and important notices.</p>
+        <div class="token-grid">
+          <div class="token-item">
+            <div class="token-preview" style="background: #fff6f0;"></div>
+            <div class="token-name">orange-50</div>
+            <div class="token-value">#fff6f0</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #ffe8da;"></div>
+            <div class="token-name">orange-100</div>
+            <div class="token-value">#ffe8da</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #ffb687;"></div>
+            <div class="token-name">orange-200</div>
+            <div class="token-value">#ffb687</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #ff861e;"></div>
+            <div class="token-name">orange-300</div>
+            <div class="token-value">#ff861e</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #c56300; color: white;"></div>
+            <div class="token-name">orange-400</div>
+            <div class="token-value">#c56300</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #a95713; color: white;"></div>
+            <div class="token-name">orange-500</div>
+            <div class="token-value">#a95713</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #894610; color: white; display: flex; align-items: center; justify-content: center; font-weight: 600;">WARNING</div>
+            <div class="token-name">orange-600</div>
+            <div class="token-value">#894610</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #6a370e; color: white;"></div>
+            <div class="token-name">orange-700</div>
+            <div class="token-value">#6a370e</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #4f2605; color: white;"></div>
+            <div class="token-name">orange-800</div>
+            <div class="token-value">#4f2605</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #311400; color: white;"></div>
+            <div class="token-name">orange-900</div>
+            <div class="token-value">#311400</div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Core Purple Scale</h2>
+        <p>Purple scale for special features, premium content, and accent elements.</p>
+        <div class="token-grid">
+          <div class="token-item">
+            <div class="token-preview" style="background: #f9f7ff;"></div>
+            <div class="token-name">purple-50</div>
+            <div class="token-value">#f9f7ff</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #f0ecff;"></div>
+            <div class="token-name">purple-100</div>
+            <div class="token-value">#f0ecff</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #cebfff;"></div>
+            <div class="token-name">purple-200</div>
+            <div class="token-value">#cebfff</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #b198f8;"></div>
+            <div class="token-name">purple-300</div>
+            <div class="token-value">#b198f8</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #8d68e0; color: white;"></div>
+            <div class="token-name">purple-400</div>
+            <div class="token-value">#8d68e0</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #824ce2; color: white;"></div>
+            <div class="token-name">purple-500</div>
+            <div class="token-value">#824ce2</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #6d35c7; color: white;"></div>
+            <div class="token-name">purple-600</div>
+            <div class="token-value">#6d35c7</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #542b9b; color: white;"></div>
+            <div class="token-name">purple-700</div>
+            <div class="token-value">#542b9b</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #3d1e71; color: white;"></div>
+            <div class="token-name">purple-800</div>
+            <div class="token-value">#3d1e71</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #240c49; color: white;"></div>
+            <div class="token-name">purple-900</div>
+            <div class="token-value">#240c49</div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Core Yellow Scale</h2>
+        <p>Yellow scale for highlights, attention, and informational elements.</p>
+        <div class="token-grid">
+          <div class="token-item">
+            <div class="token-preview" style="background: #fff5d5;"></div>
+            <div class="token-name">yellow-50</div>
+            <div class="token-value">#fff5d5</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #ffeba9;"></div>
+            <div class="token-name">yellow-100</div>
+            <div class="token-value">#ffeba9</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #e9c649;"></div>
+            <div class="token-name">yellow-200</div>
+            <div class="token-value">#e9c649</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #c4a10e;"></div>
+            <div class="token-name">yellow-300</div>
+            <div class="token-value">#c4a10e</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #977c07; color: white;"></div>
+            <div class="token-name">yellow-400</div>
+            <div class="token-value">#977c07</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #826b0e; color: white;"></div>
+            <div class="token-name">yellow-500</div>
+            <div class="token-value">#826b0e</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #69560a; color: white;"></div>
+            <div class="token-name">yellow-600</div>
+            <div class="token-value">#69560a</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #534409; color: white;"></div>
+            <div class="token-name">yellow-700</div>
+            <div class="token-value">#534409</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #3c3005; color: white;"></div>
+            <div class="token-name">yellow-800</div>
+            <div class="token-value">#3c3005</div>
+          </div>
+          <div class="token-item">
+            <div class="token-preview" style="background: #231b01; color: white;"></div>
+            <div class="token-name">yellow-900</div>
+            <div class="token-value">#231b01</div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Usage in Code</h2>
+        <p>All colors are available as CSS custom properties. Here's how to use them:</p>
+        <pre><code>/* CSS - Using design tokens */
+.button-primary {
+  background-color: var(--albi-color-primitive-colors-core-blue-600);
+  color: var(--albi-color-primitive-colors-core-neutral-white);
+}
+
+.button-primary:hover {
+  background-color: var(--albi-color-primitive-colors-core-blue-700);
+}
+
+.button-danger {
+  background-color: var(--albi-color-primitive-colors-core-red-600);
+  color: var(--albi-color-primitive-colors-core-neutral-white);
+}
+
+.text-muted {
+  color: var(--albi-color-primitive-colors-core-grey-500);
+}</code></pre>
       </section>
 
       <section>
         <h2>Accessibility</h2>
-        <p>All color combinations meet WCAG 2.1 AA standards for contrast ratios:</p>
+        <p>All color combinations are tested for WCAG 2.1 AA compliance:</p>
         <ul style="padding-left: 2rem; margin-top: 1rem;">
           <li><strong>Normal text:</strong> Minimum 4.5:1 contrast ratio</li>
           <li><strong>Large text:</strong> Minimum 3:1 contrast ratio</li>
-          <li><strong>UI components:</strong> Minimum 3:1 contrast ratio</li>
+          <li><strong>UI components:</strong> Minimum 3:1 contrast ratio for boundaries</li>
         </ul>
 
         <table class="props-table" style="margin-top: 2rem;">
@@ -160,23 +495,28 @@
           </thead>
           <tbody>
             <tr>
-              <td>Primary (#0066cc) on White</td>
-              <td>4.78:1</td>
+              <td>Blue 600 (#1f51bc) on White</td>
+              <td>5.38:1</td>
               <td><span class="badge badge-stable">AA Pass</span></td>
             </tr>
             <tr>
-              <td>Success (#28a745) on White</td>
-              <td>3.42:1</td>
-              <td><span class="badge badge-stable">AA Large Text</span></td>
+              <td>Grey 800 (#2f303c) on White</td>
+              <td>13.27:1</td>
+              <td><span class="badge badge-stable">AAA Pass</span></td>
             </tr>
             <tr>
-              <td>Danger (#dc3545) on White</td>
-              <td>4.51:1</td>
-              <td><span class="badge badge-stable">AA Pass</span></td>
+              <td>Red 600 (#b01810) on White</td>
+              <td>6.82:1</td>
+              <td><span class="badge badge-stable">AAA Pass</span></td>
             </tr>
             <tr>
-              <td>Gray 900 (#212529) on White</td>
-              <td>16.12:1</td>
+              <td>Green 600 (#1a670f) on White</td>
+              <td>7.24:1</td>
+              <td><span class="badge badge-stable">AAA Pass</span></td>
+            </tr>
+            <tr>
+              <td>Orange 600 (#894610) on White</td>
+              <td>7.08:1</td>
               <td><span class="badge badge-stable">AAA Pass</span></td>
             </tr>
           </tbody>
@@ -184,24 +524,16 @@
       </section>
 
       <section>
-        <h2>Usage in Code</h2>
-        <pre><code>/* CSS */
-.button-primary {
-  background-color: var(--primary);
-  color: var(--white);
-}
-
-.button-primary:hover {
-  background-color: var(--primary-hover);
-}
-
-/* React/TypeScript */
-import { colors } from '@albi/flight-tokens';
-
-const Button = styled.button`
-  background: ${colors.primary};
-  color: ${colors.white};
-`;</code></pre>
+        <h2>Button Color Applications</h2>
+        <p>How these colors are used in button components:</p>
+        <div style="margin: 2rem 0; padding: 1.5rem; background: #f6f8fa; border-radius: 8px;">
+          <div style="display: flex; gap: 1rem; flex-wrap: wrap; align-items: center;">
+            <button style="background: #1f51bc; color: white; padding: 12px 16px; border: none; border-radius: 8px; font-family: Poppins; font-weight: 500; cursor: pointer;">Primary (Blue 600)</button>
+            <button style="background: #2f303c; color: white; padding: 12px 16px; border: none; border-radius: 8px; font-family: Poppins; font-weight: 500; cursor: pointer;">Secondary (Grey 800)</button>
+            <button style="background: #b01810; color: white; padding: 12px 16px; border: none; border-radius: 8px; font-family: Poppins; font-weight: 500; cursor: pointer;">Danger (Red 600)</button>
+            <button style="background: #894610; color: white; padding: 12px 16px; border: none; border-radius: 8px; font-family: Poppins; font-weight: 500; cursor: pointer;">Warning (Orange 600)</button>
+          </div>
+        </div>
       </section>
     </div>
   </main>
