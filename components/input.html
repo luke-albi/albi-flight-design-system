@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Input Component - Albi Flight Design System</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Albi Flight Design System</h1>
+      <p>Input Component Documentation</p>
+    </div>
+  </header>
+
+  <nav>
+    <div class="container">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../components.html" class="active">Components</a></li>
+        <li><a href="../tokens/colors.html">Tokens</a></li>
+        <li><a href="#guidelines">Guidelines</a></li>
+        <li><a href="https://github.com/albi/flight-design-system" target="_blank">GitHub</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container">
+      <div class="component-detail">
+        <div class="component-content">
+          <div class="page-header">
+            <div style="display: flex; gap: 0.5rem; margin-bottom: 1rem;">
+              <span class="badge badge-core">Core</span>
+              <span class="badge badge-stable">v1.8.2</span>
+            </div>
+            <h1>Input</h1>
+            <p>Text input field for forms and data entry. Includes validation states, helper text, and various input types.</p>
+            <a href="#" class="figma-link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 12.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0zm3.5-7a3.5 3.5 0 0 0 0 7h-7a3.5 3.5 0 1 0 0 7V5.5z"/>
+              </svg>
+              View in Figma
+            </a>
+          </div>
+
+          <section>
+            <h2>Overview</h2>
+            <p>Input components allow users to enter text, numbers, and other data. They are fundamental form elements that should provide clear labels, validation feedback, and accessibility features.</p>
+          </section>
+
+          <section>
+            <h2>States</h2>
+            <div class="states-grid">
+              <div class="state-example">
+                <div style="padding: 1.5rem; background: #f5f5f5; border-radius: 8px;">
+                  <label style="display: block; font-weight: 500; margin-bottom: 0.5rem; font-size: 0.875rem;">Email Address</label>
+                  <input type="email" placeholder="Enter your email" style="width: 100%; padding: 0.75rem; border: 1px solid #dee2e6; border-radius: 0.5rem; font-size: 1rem;">
+                </div>
+                <h4>Default</h4>
+              </div>
+
+              <div class="state-example">
+                <div style="padding: 1.5rem; background: #f5f5f5; border-radius: 8px;">
+                  <label style="display: block; font-weight: 500; margin-bottom: 0.5rem; font-size: 0.875rem;">Email Address</label>
+                  <input type="email" value="user@example.com" style="width: 100%; padding: 0.75rem; border: 2px solid #0066cc; border-radius: 0.5rem; font-size: 1rem; box-shadow: 0 0 0 3px rgba(0,102,204,0.1);">
+                </div>
+                <h4>Focused</h4>
+              </div>
+
+              <div class="state-example">
+                <div style="padding: 1.5rem; background: #f5f5f5; border-radius: 8px;">
+                  <label style="display: block; font-weight: 500; margin-bottom: 0.5rem; font-size: 0.875rem;">Email Address</label>
+                  <input type="email" value="user@example.com" style="width: 100%; padding: 0.75rem; border: 1px solid #6c757d; border-radius: 0.5rem; font-size: 1rem; background: #e9ecef; cursor: not-allowed;" disabled>
+                </div>
+                <h4>Disabled</h4>
+              </div>
+
+              <div class="state-example">
+                <div style="padding: 1.5rem; background: #f5f5f5; border-radius: 8px;">
+                  <label style="display: block; font-weight: 500; margin-bottom: 0.5rem; font-size: 0.875rem;">Email Address</label>
+                  <input type="email" value="invalid-email" style="width: 100%; padding: 0.75rem; border: 2px solid #dc3545; border-radius: 0.5rem; font-size: 1rem;">
+                  <p style="color: #dc3545; font-size: 0.75rem; margin-top: 0.25rem;">Please enter a valid email</p>
+                </div>
+                <h4>Error</h4>
+              </div>
+
+              <div class="state-example">
+                <div style="padding: 1.5rem; background: #f5f5f5; border-radius: 8px;">
+                  <label style="display: block; font-weight: 500; margin-bottom: 0.5rem; font-size: 0.875rem;">Email Address</label>
+                  <input type="email" value="user@example.com" style="width: 100%; padding: 0.75rem; border: 2px solid #28a745; border-radius: 0.5rem; font-size: 1rem;">
+                  <p style="color: #28a745; font-size: 0.75rem; margin-top: 0.25rem;">Email is available</p>
+                </div>
+                <h4>Success</h4>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <h2>Props</h2>
+            <table class="props-table">
+              <thead>
+                <tr>
+                  <th>Prop</th>
+                  <th>Type</th>
+                  <th>Default</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><code>type</code></td>
+                  <td><code>"text" | "email" | "password" | "number" | "tel" | "url"</code></td>
+                  <td><code>"text"</code></td>
+                  <td>Input type</td>
+                </tr>
+                <tr>
+                  <td><code>label</code></td>
+                  <td><code>string</code></td>
+                  <td><code>undefined</code></td>
+                  <td>Label text</td>
+                </tr>
+                <tr>
+                  <td><code>placeholder</code></td>
+                  <td><code>string</code></td>
+                  <td><code>undefined</code></td>
+                  <td>Placeholder text</td>
+                </tr>
+                <tr>
+                  <td><code>helperText</code></td>
+                  <td><code>string</code></td>
+                  <td><code>undefined</code></td>
+                  <td>Helper text below input</td>
+                </tr>
+                <tr>
+                  <td><code>error</code></td>
+                  <td><code>boolean | string</code></td>
+                  <td><code>false</code></td>
+                  <td>Error state or message</td>
+                </tr>
+                <tr>
+                  <td><code>disabled</code></td>
+                  <td><code>boolean</code></td>
+                  <td><code>false</code></td>
+                  <td>Disable input</td>
+                </tr>
+                <tr>
+                  <td><code>required</code></td>
+                  <td><code>boolean</code></td>
+                  <td><code>false</code></td>
+                  <td>Mark as required</td>
+                </tr>
+                <tr>
+                  <td><code>fullWidth</code></td>
+                  <td><code>boolean</code></td>
+                  <td><code>false</code></td>
+                  <td>Make input full width</td>
+                </tr>
+                <tr>
+                  <td><code>prefix</code></td>
+                  <td><code>ReactNode</code></td>
+                  <td><code>undefined</code></td>
+                  <td>Icon or text prefix</td>
+                </tr>
+                <tr>
+                  <td><code>suffix</code></td>
+                  <td><code>ReactNode</code></td>
+                  <td><code>undefined</code></td>
+                  <td>Icon or text suffix</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+
+          <section>
+            <h2>Usage Guidelines</h2>
+
+            <div class="do-dont-list">
+              <div class="do-list">
+                <h3>Do</h3>
+                <ul>
+                  <li>Always provide clear labels</li>
+                  <li>Use appropriate input types</li>
+                  <li>Provide helpful validation messages</li>
+                  <li>Show success states when appropriate</li>
+                  <li>Use placeholder text as examples, not labels</li>
+                </ul>
+              </div>
+
+              <div class="dont-list">
+                <h3>Don't</h3>
+                <ul>
+                  <li>Don't use placeholder as a label replacement</li>
+                  <li>Don't validate before user has finished typing</li>
+                  <li>Don't use vague error messages</li>
+                  <li>Don't make required fields unclear</li>
+                  <li>Don't disable without explaining why</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <h2>Code Example</h2>
+            <pre><code>import { Input } from '@albi/flight';
+
+// Basic input
+&lt;Input
+  label="Email Address"
+  type="email"
+  placeholder="user@example.com"
+  required
+/&gt;
+
+// Input with error
+&lt;Input
+  label="Password"
+  type="password"
+  error="Password must be at least 8 characters"
+/&gt;
+
+// Input with prefix and suffix
+&lt;Input
+  label="Website"
+  type="url"
+  prefix="https://"
+  suffix={&lt;LinkIcon /&gt;}
+/&gt;</code></pre>
+          </section>
+        </div>
+
+        <div class="component-sidebar">
+          <h3>On This Page</h3>
+          <ul>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#states">States</a></li>
+            <li><a href="#props">Props</a></li>
+            <li><a href="#usage">Usage Guidelines</a></li>
+            <li><a href="#code">Code Example</a></li>
+          </ul>
+
+          <h3 style="margin-top: 2rem;">Related</h3>
+          <ul>
+            <li><a href="button.html">Button</a></li>
+            <li><a href="select.html">Select</a></li>
+            <li><a href="../tokens/colors.html">Color Tokens</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Albi Flight Design System. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

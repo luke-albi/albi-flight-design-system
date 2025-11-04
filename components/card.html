@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Component - Albi Flight Design System</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Albi Flight Design System</h1>
+      <p>Card Component Documentation</p>
+    </div>
+  </header>
+
+  <nav>
+    <div class="container">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../components.html" class="active">Components</a></li>
+        <li><a href="../tokens/colors.html">Tokens</a></li>
+        <li><a href="#guidelines">Guidelines</a></li>
+        <li><a href="https://github.com/albi/flight-design-system" target="_blank">GitHub</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container">
+      <div class="page-header">
+        <div style="display: flex; gap: 0.5rem; margin-bottom: 1rem;">
+          <span class="badge badge-core">Core</span>
+          <span class="badge badge-stable">v1.5.0</span>
+        </div>
+        <h1>Card</h1>
+        <p>Container component for grouping related content with optional header, body, and footer sections.</p>
+      </div>
+
+      <section>
+        <h2>Overview</h2>
+        <p>Cards are flexible containers for displaying content. They can include headers, images, text, actions, and more. Use cards to group related information and make it easily scannable.</p>
+      </section>
+
+      <section>
+        <h2>Examples</h2>
+        <div style="max-width: 400px; margin: 2rem 0;">
+          <div style="border: 1px solid #dee2e6; border-radius: 0.75rem; overflow: hidden; background: white;">
+            <div style="padding: 1.5rem; border-bottom: 1px solid #dee2e6;">
+              <h3 style="margin: 0; font-size: 1.25rem;">Card Title</h3>
+            </div>
+            <div style="padding: 1.5rem;">
+              <p style="margin: 0; color: #6c757d;">This is the card body. It contains the main content and can include text, images, lists, or any other content.</p>
+            </div>
+            <div style="padding: 1.5rem; border-top: 1px solid #dee2e6; display: flex; gap: 1rem;">
+              <button style="background: #0066cc; color: white; padding: 0.5rem 1rem; border: none; border-radius: 0.5rem; cursor: pointer;">Action</button>
+              <button style="background: transparent; color: #0066cc; padding: 0.5rem 1rem; border: 2px solid #0066cc; border-radius: 0.5rem; cursor: pointer;">Cancel</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Props</h2>
+        <table class="props-table">
+          <thead>
+            <tr>
+              <th>Prop</th>
+              <th>Type</th>
+              <th>Default</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>header</code></td>
+              <td><code>ReactNode</code></td>
+              <td><code>undefined</code></td>
+              <td>Card header content</td>
+            </tr>
+            <tr>
+              <td><code>footer</code></td>
+              <td><code>ReactNode</code></td>
+              <td><code>undefined</code></td>
+              <td>Card footer content</td>
+            </tr>
+            <tr>
+              <td><code>elevation</code></td>
+              <td><code>"none" | "sm" | "md" | "lg"</code></td>
+              <td><code>"sm"</code></td>
+              <td>Shadow elevation</td>
+            </tr>
+            <tr>
+              <td><code>padding</code></td>
+              <td><code>"none" | "sm" | "md" | "lg"</code></td>
+              <td><code>"md"</code></td>
+              <td>Internal padding</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>Code Example</h2>
+        <pre><code>import { Card } from '@albi/flight';
+
+&lt;Card
+  header={&lt;h3&gt;Card Title&lt;/h3&gt;}
+  footer={
+    &lt;&gt;
+      &lt;Button&gt;Action&lt;/Button&gt;
+      &lt;Button variant="outline"&gt;Cancel&lt;/Button&gt;
+    &lt;/&gt;
+  }
+&gt;
+  &lt;p&gt;Card content goes here&lt;/p&gt;
+&lt;/Card&gt;</code></pre>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Albi Flight Design System. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

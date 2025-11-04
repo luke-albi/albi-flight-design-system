@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Button Component - Albi Flight Design System</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Albi Flight Design System</h1>
+      <p>Button Component Documentation</p>
+    </div>
+  </header>
+
+  <nav>
+    <div class="container">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../components.html" class="active">Components</a></li>
+        <li><a href="../tokens/colors.html">Tokens</a></li>
+        <li><a href="#guidelines">Guidelines</a></li>
+        <li><a href="https://github.com/albi/flight-design-system" target="_blank">GitHub</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container">
+      <div class="component-detail">
+        <div class="component-content">
+          <div class="page-header">
+            <div style="display: flex; gap: 0.5rem; margin-bottom: 1rem;">
+              <span class="badge badge-core">Core</span>
+              <span class="badge badge-stable">v2.1.0</span>
+            </div>
+            <h1>Button</h1>
+            <p>Primary interactive element for user actions. Supports multiple variants, sizes, and states.</p>
+            <a href="#" class="figma-link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 12.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0zm3.5-7a3.5 3.5 0 0 0 0 7h-7a3.5 3.5 0 1 0 0 7V5.5z"/>
+              </svg>
+              View in Figma
+            </a>
+          </div>
+
+          <section>
+            <h2>Overview</h2>
+            <p>Buttons are interactive elements that users can click or tap to trigger actions. They should be used for primary actions like submitting forms, confirming operations, or navigating to important pages.</p>
+          </section>
+
+          <section>
+            <h2>Variants</h2>
+            <p>The Button component comes in multiple visual variants to indicate hierarchy and importance:</p>
+
+            <div class="states-grid">
+              <div class="state-example">
+                <div style="padding: 2rem; background: #f5f5f5; border-radius: 8px;">
+                  <button style="background: #0066cc; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 0.5rem; font-weight: 500; cursor: pointer;">Primary Button</button>
+                </div>
+                <h4>Primary</h4>
+                <p style="font-size: 0.875rem; color: #666; margin-top: 0.5rem;">Main call-to-action</p>
+              </div>
+
+              <div class="state-example">
+                <div style="padding: 2rem; background: #f5f5f5; border-radius: 8px;">
+                  <button style="background: #6c757d; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 0.5rem; font-weight: 500; cursor: pointer;">Secondary Button</button>
+                </div>
+                <h4>Secondary</h4>
+                <p style="font-size: 0.875rem; color: #666; margin-top: 0.5rem;">Secondary actions</p>
+              </div>
+
+              <div class="state-example">
+                <div style="padding: 2rem; background: #f5f5f5; border-radius: 8px;">
+                  <button style="background: transparent; color: #0066cc; padding: 0.75rem 1.5rem; border: 2px solid #0066cc; border-radius: 0.5rem; font-weight: 500; cursor: pointer;">Outline Button</button>
+                </div>
+                <h4>Outline</h4>
+                <p style="font-size: 0.875rem; color: #666; margin-top: 0.5rem;">Tertiary actions</p>
+              </div>
+
+              <div class="state-example">
+                <div style="padding: 2rem; background: #f5f5f5; border-radius: 8px;">
+                  <button style="background: transparent; color: #0066cc; padding: 0.75rem 1.5rem; border: none; border-radius: 0.5rem; font-weight: 500; cursor: pointer;">Ghost Button</button>
+                </div>
+                <h4>Ghost</h4>
+                <p style="font-size: 0.875rem; color: #666; margin-top: 0.5rem;">Minimal emphasis</p>
+              </div>
+
+              <div class="state-example">
+                <div style="padding: 2rem; background: #f5f5f5; border-radius: 8px;">
+                  <button style="background: #dc3545; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 0.5rem; font-weight: 500; cursor: pointer;">Danger Button</button>
+                </div>
+                <h4>Danger</h4>
+                <p style="font-size: 0.875rem; color: #666; margin-top: 0.5rem;">Destructive actions</p>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <h2>States</h2>
+            <p>Buttons support multiple interactive states:</p>
+
+            <div class="states-grid">
+              <div class="state-example">
+                <div style="padding: 2rem; background: #f5f5f5; border-radius: 8px;">
+                  <button style="background: #0066cc; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 0.5rem; font-weight: 500; cursor: pointer;">Default</button>
+                </div>
+                <h4>Default</h4>
+              </div>
+
+              <div class="state-example">
+                <div style="padding: 2rem; background: #f5f5f5; border-radius: 8px;">
+                  <button style="background: #0052a3; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 0.5rem; font-weight: 500; cursor: pointer; box-shadow: 0 2px 8px rgba(0,102,204,0.3);">Hover</button>
+                </div>
+                <h4>Hover</h4>
+              </div>
+
+              <div class="state-example">
+                <div style="padding: 2rem; background: #f5f5f5; border-radius: 8px;">
+                  <button style="background: #003d7a; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 0.5rem; font-weight: 500; cursor: pointer;">Active</button>
+                </div>
+                <h4>Active</h4>
+              </div>
+
+              <div class="state-example">
+                <div style="padding: 2rem; background: #f5f5f5; border-radius: 8px;">
+                  <button style="background: #0066cc; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 0.5rem; font-weight: 500; cursor: pointer; box-shadow: 0 0 0 3px rgba(0,102,204,0.3);">Focused</button>
+                </div>
+                <h4>Focused</h4>
+              </div>
+
+              <div class="state-example">
+                <div style="padding: 2rem; background: #f5f5f5; border-radius: 8px;">
+                  <button style="background: #e9ecef; color: #6c757d; padding: 0.75rem 1.5rem; border: none; border-radius: 0.5rem; font-weight: 500; cursor: not-allowed; opacity: 0.6;">Disabled</button>
+                </div>
+                <h4>Disabled</h4>
+              </div>
+
+              <div class="state-example">
+                <div style="padding: 2rem; background: #f5f5f5; border-radius: 8px;">
+                  <button style="background: #0066cc; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 0.5rem; font-weight: 500; cursor: wait; display: flex; align-items: center; gap: 0.5rem;">
+                    <span style="width: 16px; height: 16px; border: 2px solid white; border-top-color: transparent; border-radius: 50%; animation: spin 0.8s linear infinite;"></span>
+                    Loading
+                  </button>
+                </div>
+                <h4>Loading</h4>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <h2>Props</h2>
+            <table class="props-table">
+              <thead>
+                <tr>
+                  <th>Prop</th>
+                  <th>Type</th>
+                  <th>Default</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><code>variant</code></td>
+                  <td><code>"primary" | "secondary" | "outline" | "ghost" | "danger"</code></td>
+                  <td><code>"primary"</code></td>
+                  <td>Visual style variant</td>
+                </tr>
+                <tr>
+                  <td><code>size</code></td>
+                  <td><code>"sm" | "md" | "lg"</code></td>
+                  <td><code>"md"</code></td>
+                  <td>Button size</td>
+                </tr>
+                <tr>
+                  <td><code>disabled</code></td>
+                  <td><code>boolean</code></td>
+                  <td><code>false</code></td>
+                  <td>Disable button interaction</td>
+                </tr>
+                <tr>
+                  <td><code>loading</code></td>
+                  <td><code>boolean</code></td>
+                  <td><code>false</code></td>
+                  <td>Show loading state</td>
+                </tr>
+                <tr>
+                  <td><code>fullWidth</code></td>
+                  <td><code>boolean</code></td>
+                  <td><code>false</code></td>
+                  <td>Make button full width</td>
+                </tr>
+                <tr>
+                  <td><code>icon</code></td>
+                  <td><code>ReactNode</code></td>
+                  <td><code>undefined</code></td>
+                  <td>Optional icon element</td>
+                </tr>
+                <tr>
+                  <td><code>onClick</code></td>
+                  <td><code>(event: MouseEvent) => void</code></td>
+                  <td><code>undefined</code></td>
+                  <td>Click handler</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+
+          <section>
+            <h2>Usage Guidelines</h2>
+
+            <div class="do-dont-list">
+              <div class="do-list">
+                <h3>Do</h3>
+                <ul>
+                  <li>Use for primary actions users should take</li>
+                  <li>Limit to 1-2 primary buttons per screen</li>
+                  <li>Use clear, action-oriented labels</li>
+                  <li>Ensure adequate touch target size (44x44px minimum)</li>
+                  <li>Provide visual feedback on interaction</li>
+                </ul>
+              </div>
+
+              <div class="dont-list">
+                <h3>Don't</h3>
+                <ul>
+                  <li>Don't use multiple primary buttons together</li>
+                  <li>Don't use for navigation (use links instead)</li>
+                  <li>Don't use vague labels like "Click here"</li>
+                  <li>Don't make buttons too small to tap</li>
+                  <li>Don't use disabled state without explanation</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <h2>Accessibility</h2>
+            <ul style="padding-left: 2rem;">
+              <li><strong>Keyboard Navigation:</strong> Fully accessible via Tab and Enter/Space keys</li>
+              <li><strong>Screen Readers:</strong> Use aria-label when button text isn't descriptive</li>
+              <li><strong>Focus Indication:</strong> Clear focus ring for keyboard users</li>
+              <li><strong>Loading State:</strong> Announce loading state with aria-busy</li>
+              <li><strong>Disabled State:</strong> Use aria-disabled and provide context</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>Code Example</h2>
+            <pre><code>import { Button } from '@albi/flight';
+
+// Primary button
+&lt;Button variant="primary" onClick={handleSubmit}&gt;
+  Submit Form
+&lt;/Button&gt;
+
+// Button with loading state
+&lt;Button
+  variant="primary"
+  loading={isLoading}
+  disabled={isLoading}
+  onClick={handleSave}
+&gt;
+  Save Changes
+&lt;/Button&gt;
+
+// Button with icon
+&lt;Button variant="secondary" icon={&lt;PlusIcon /&gt;}&gt;
+  Add Item
+&lt;/Button&gt;</code></pre>
+          </section>
+
+          <section>
+            <h2>Platform-Specific Notes</h2>
+            <h3>Web</h3>
+            <ul style="padding-left: 2rem;">
+              <li>Supports hover states and cursor changes</li>
+              <li>Can be used as a link with <code>href</code> prop</li>
+              <li>Supports <code>target</code> and <code>rel</code> attributes for links</li>
+            </ul>
+
+            <h3>Mobile</h3>
+            <ul style="padding-left: 2rem;">
+              <li>Uses haptic feedback on press</li>
+              <li>Larger default touch targets (48x48dp)</li>
+              <li>No hover state (uses press state instead)</li>
+            </ul>
+          </section>
+        </div>
+
+        <div class="component-sidebar">
+          <h3>On This Page</h3>
+          <ul>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#variants">Variants</a></li>
+            <li><a href="#states">States</a></li>
+            <li><a href="#props">Props</a></li>
+            <li><a href="#usage">Usage Guidelines</a></li>
+            <li><a href="#accessibility">Accessibility</a></li>
+            <li><a href="#code">Code Example</a></li>
+            <li><a href="#platform">Platform Notes</a></li>
+          </ul>
+
+          <h3 style="margin-top: 2rem;">Related</h3>
+          <ul>
+            <li><a href="input.html">Input</a></li>
+            <li><a href="card.html">Card</a></li>
+            <li><a href="../tokens/colors.html">Color Tokens</a></li>
+          </ul>
+
+          <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #dee2e6;">
+            <p style="font-size: 0.75rem; color: #6c757d;">
+              <strong>Version:</strong> 2.1.0<br>
+              <strong>Last Updated:</strong> Nov 3, 2025<br>
+              <strong>Status:</strong> Stable
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Albi Flight Design System. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+  <style>
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+  </style>
+</body>
+</html>
