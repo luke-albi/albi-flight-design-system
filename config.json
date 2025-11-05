@@ -22,6 +22,15 @@
             "outputReferences": false,
             "showFileHeader": true
           }
+        },
+        {
+          "destination": "tokens-dark.css",
+          "format": "css/variables",
+          "options": {
+            "outputReferences": false,
+            "showFileHeader": true,
+            "selector": "[data-theme=\"dark\"]"
+          }
         }
       ]
     },

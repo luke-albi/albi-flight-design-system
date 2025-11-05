@@ -313,61 +313,198 @@
               </tbody>
             </table>
 
-            <h3>Color Tokens</h3>
-            <table class="props-table" style="margin-top: 1rem;">
+            <h3>Semantic Color Tokens</h3>
+            <p style="margin-bottom: 1rem;">Buttons use semantic color tokens that reference theme colors. These tokens provide context-aware styling.</p>
+
+            <h4 style="margin-top: 2rem;">Filled Button Tokens (on-fill)</h4>
+            <table class="props-table">
               <thead>
                 <tr>
                   <th>Variant</th>
-                  <th>Color Token</th>
-                  <th>Hex Value</th>
+                  <th>Property</th>
+                  <th>Semantic Token</th>
                   <th>Preview</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td><strong>Primary</strong></td>
-                  <td><code>--albi-color-primitive-colors-core-blue-600</code></td>
-                  <td>#1f51bc</td>
-                  <td><span class="color-swatch" style="background: #1f51bc;"></span></td>
+                  <td rowspan="3"><strong>Primary</strong></td>
+                  <td>Background</td>
+                  <td><code>--albi-color-semantic-v2-button-primary-on-fill-bg</code></td>
+                  <td><span class="color-swatch" style="background: var(--albi-color-semantic-v2-button-primary-on-fill-bg);"></span></td>
                 </tr>
                 <tr>
-                  <td><strong>Secondary</strong></td>
-                  <td><code>--albi-color-primitive-colors-core-grey-800</code></td>
-                  <td>#2f303c</td>
-                  <td><span class="color-swatch" style="background: #2f303c;"></span></td>
+                  <td>Foreground</td>
+                  <td><code>--albi-color-semantic-v2-button-primary-on-fill-fg</code></td>
+                  <td><span class="color-swatch" style="background: var(--albi-color-semantic-v2-button-primary-on-fill-fg);"></span></td>
                 </tr>
                 <tr>
-                  <td><strong>Danger</strong></td>
-                  <td><code>--albi-color-primitive-colors-core-red-600</code></td>
-                  <td>#b01810</td>
-                  <td><span class="color-swatch" style="background: #b01810;"></span></td>
+                  <td>Border</td>
+                  <td><code>--albi-color-semantic-v2-button-primary-on-fill-border</code></td>
+                  <td><span style="font-size: 0.75rem; color: #636e80;">Transparent</span></td>
                 </tr>
                 <tr>
-                  <td><strong>Warning</strong></td>
-                  <td><code>--albi-color-primitive-colors-core-orange-600</code></td>
-                  <td>#894610</td>
-                  <td><span class="color-swatch" style="background: #894610;"></span></td>
+                  <td rowspan="3"><strong>Secondary</strong></td>
+                  <td>Background</td>
+                  <td><code>--albi-color-semantic-v2-button-secondary-on-fill-bg</code></td>
+                  <td><span class="color-swatch" style="background: var(--albi-color-semantic-v2-button-secondary-on-fill-bg);"></span></td>
                 </tr>
                 <tr>
-                  <td><strong>White (Text)</strong></td>
-                  <td><code>--albi-color-primitive-colors-core-neutral-white</code></td>
-                  <td>#ffffff</td>
-                  <td><span class="color-swatch" style="background: #ffffff;"></span></td>
+                  <td>Foreground</td>
+                  <td><code>--albi-color-semantic-v2-button-secondary-on-fill-fg</code></td>
+                  <td><span class="color-swatch" style="background: var(--albi-color-semantic-v2-button-secondary-on-fill-fg);"></span></td>
+                </tr>
+                <tr>
+                  <td>Border</td>
+                  <td><code>--albi-color-semantic-v2-button-secondary-on-fill-border</code></td>
+                  <td><span style="font-size: 0.75rem; color: #636e80;">Transparent</span></td>
+                </tr>
+                <tr>
+                  <td rowspan="3"><strong>Danger</strong></td>
+                  <td>Background</td>
+                  <td><code>--albi-color-semantic-v2-button-danger-on-fill-bg</code></td>
+                  <td><span class="color-swatch" style="background: var(--albi-color-semantic-v2-button-danger-on-fill-bg);"></span></td>
+                </tr>
+                <tr>
+                  <td>Foreground</td>
+                  <td><code>--albi-color-semantic-v2-button-danger-on-fill-fg</code></td>
+                  <td><span class="color-swatch" style="background: var(--albi-color-semantic-v2-button-danger-on-fill-fg);"></span></td>
+                </tr>
+                <tr>
+                  <td>Border</td>
+                  <td><code>--albi-color-semantic-v2-button-danger-on-fill-border</code></td>
+                  <td><span style="font-size: 0.75rem; color: #636e80;">Transparent</span></td>
+                </tr>
+                <tr>
+                  <td rowspan="3"><strong>Warning</strong></td>
+                  <td>Background</td>
+                  <td><code>--albi-color-semantic-v2-button-warning-on-fill-bg</code></td>
+                  <td><span class="color-swatch" style="background: var(--albi-color-semantic-v2-button-warning-on-fill-bg);"></span></td>
+                </tr>
+                <tr>
+                  <td>Foreground</td>
+                  <td><code>--albi-color-semantic-v2-button-warning-on-fill-fg</code></td>
+                  <td><span class="color-swatch" style="background: var(--albi-color-semantic-v2-button-warning-on-fill-fg);"></span></td>
+                </tr>
+                <tr>
+                  <td>Border</td>
+                  <td><code>--albi-color-semantic-v2-button-warning-on-fill-border</code></td>
+                  <td><span style="font-size: 0.75rem; color: #636e80;">Transparent</span></td>
                 </tr>
               </tbody>
             </table>
 
-            <h3>CSS Implementation</h3>
-            <pre><code>/* Using design tokens */
-.button-primary {
-  background: var(--albi-color-primitive-colors-core-blue-600);
-  color: var(--albi-color-primitive-colors-core-neutral-white);
+            <h4 style="margin-top: 2rem;">Outlined/Text Button Tokens (on-surface)</h4>
+            <table class="props-table">
+              <thead>
+                <tr>
+                  <th>Variant</th>
+                  <th>Property</th>
+                  <th>Semantic Token</th>
+                  <th>Preview</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="3"><strong>Primary</strong></td>
+                  <td>Background</td>
+                  <td><code>--albi-color-semantic-v2-button-primary-on-surface-bg</code></td>
+                  <td><span style="font-size: 0.75rem; color: #636e80;">Transparent</span></td>
+                </tr>
+                <tr>
+                  <td>Foreground</td>
+                  <td><code>--albi-color-semantic-v2-button-primary-on-surface-fg</code></td>
+                  <td><span class="color-swatch" style="background: var(--albi-color-semantic-v2-button-primary-on-surface-fg);"></span></td>
+                </tr>
+                <tr>
+                  <td>Border</td>
+                  <td><code>--albi-color-semantic-v2-button-primary-on-surface-border</code></td>
+                  <td><span class="color-swatch" style="background: var(--albi-color-semantic-v2-button-primary-on-surface-border);"></span></td>
+                </tr>
+              </tbody>
+            </table>
+
+            <h4 style="margin-top: 2rem;">State Layer Tokens</h4>
+            <p style="margin-bottom: 1rem;">State layers are overlays applied on interaction for visual feedback.</p>
+            <table class="props-table">
+              <thead>
+                <tr>
+                  <th>Variant</th>
+                  <th>State</th>
+                  <th>Token (Filled)</th>
+                  <th>Opacity</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="4"><strong>Primary</strong></td>
+                  <td>Hovered</td>
+                  <td><code>--albi-color-semantic-v2-button-primary-on-fill-state-layer-hovered</code></td>
+                  <td>8%</td>
+                </tr>
+                <tr>
+                  <td>Pressed</td>
+                  <td><code>--albi-color-semantic-v2-button-primary-on-fill-state-layer-pressed</code></td>
+                  <td>10%</td>
+                </tr>
+                <tr>
+                  <td>Focused</td>
+                  <td><code>--albi-color-semantic-v2-button-primary-on-fill-state-layer-focused</code></td>
+                  <td>16%</td>
+                </tr>
+                <tr>
+                  <td>Disabled</td>
+                  <td><code>--albi-color-semantic-v2-button-primary-on-fill-state-layer-disabled</code></td>
+                  <td>24%</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <h3 style="margin-top: 2rem;">CSS Implementation</h3>
+            <pre><code>/* Filled Primary Button - Using semantic tokens */
+.button-primary-filled {
+  background: var(--albi-color-semantic-v2-button-primary-on-fill-bg);
+  color: var(--albi-color-semantic-v2-button-primary-on-fill-fg);
+  border: 2px solid var(--albi-color-semantic-v2-button-primary-on-fill-border);
   padding: 12px var(--albi-space-space-md);
   border-radius: var(--albi-border-radius-radius-border-radius-rounded-lg);
   font-family: var(--albi-font-family-typography-family-primary);
   font-size: var(--albi-font-size-typography-body-body-1-font-size);
   font-weight: 500;
+}
+
+.button-primary-filled:hover::before {
+  content: '';
+  background: var(--albi-color-semantic-v2-button-primary-on-fill-state-layer-hovered);
+}
+
+/* Outlined Primary Button - Using semantic tokens */
+.button-primary-outlined {
+  background: var(--albi-color-semantic-v2-button-primary-on-surface-bg);
+  color: var(--albi-color-semantic-v2-button-primary-on-surface-fg);
+  border: 2px solid var(--albi-color-semantic-v2-button-primary-on-surface-border);
+  padding: 10px 14px; /* Account for 2px border */
+  border-radius: var(--albi-border-radius-radius-border-radius-rounded-lg);
+}
+
+.button-primary-outlined:hover::before {
+  content: '';
+  background: var(--albi-color-semantic-v2-button-primary-on-surface-state-layer-hovered);
 }</code></pre>
+
+            <h3 style="margin-top: 2rem;">Theme Token Mapping</h3>
+            <p style="margin-bottom: 1rem;">Button semantic tokens reference theme tokens, which reference primitive colors:</p>
+            <pre><code>/* Token hierarchy */
+button-primary-on-fill-bg
+  ↓ references
+theme-primary
+  ↓ references
+primitive-colors-core-blue-600 (#1f51bc)
+
+/* This means: */
+/* 1. Change theme-primary in Figma */
+/* 2. Re-export and rebuild tokens */
+/* 3. All buttons update automatically */</code></pre>
           </section>
 
           <section id="props">

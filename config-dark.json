@@ -1,0 +1,30 @@
+{
+  "source": [
+    "tokens/source/**/*.json",
+    "tokens/dark/**/*.json"
+  ],
+  "log": {
+    "warnings": "warn",
+    "verbosity": "default",
+    "errors": {
+      "brokenReferences": "console"
+    }
+  },
+  "platforms": {
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "assets/css/",
+      "files": [
+        {
+          "destination": "tokens-dark.css",
+          "format": "css/variables",
+          "options": {
+            "outputReferences": false,
+            "showFileHeader": true,
+            "selector": "[data-theme=\"dark\"]"
+          }
+        }
+      ]
+    }
+  }
+}

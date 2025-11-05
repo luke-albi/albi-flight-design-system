@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Albi Flight Design System - Comprehensive design system documentation",
   "scripts": {
-    "build:tokens": "style-dictionary build",
+    "build:tokens": "style-dictionary build && style-dictionary build --config config-dark.json",
+    "build:tokens:light": "style-dictionary build",
+    "build:tokens:dark": "style-dictionary build --config config-dark.json",
     "watch:tokens": "style-dictionary build --watch"
   },
   "keywords": [

@@ -5,9 +5,70 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Color Tokens - Albi Flight Design System</title>
   <link rel="stylesheet" href="../assets/css/tokens.css">
+  <link rel="stylesheet" href="../assets/css/tokens-dark.css">
   <link rel="stylesheet" href="../assets/css/style.css">
+  <style>
+    .theme-toggle {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 1000;
+      display: flex;
+      gap: 0.5rem;
+      background: white;
+      padding: 0.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      border: 1px solid #dee2e6;
+    }
+    [data-theme="dark"] .theme-toggle {
+      background: #2f303c;
+      border-color: #404552;
+    }
+    .theme-toggle button {
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 6px;
+      background: transparent;
+      cursor: pointer;
+      font-family: Poppins;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+    .theme-toggle button.active {
+      background: var(--albi-color-semantic-v2-theme-primary);
+      color: white;
+    }
+    [data-theme="dark"] body {
+      background: #1a1b25;
+      color: #ebeef1;
+    }
+    [data-theme="dark"] header {
+      background: #2f303c;
+    }
+    [data-theme="dark"] nav {
+      background: #2f303c;
+      border-color: #404552;
+    }
+    [data-theme="dark"] .token-item {
+      background: #2f303c;
+      border-color: #404552;
+    }
+    [data-theme="dark"] .token-preview {
+      border-color: #404552;
+    }
+    [data-theme="dark"] footer {
+      background: #2f303c;
+      border-color: #404552;
+    }
+  </style>
 </head>
-<body>
+<body data-theme="light">
+  <div class="theme-toggle">
+    <button onclick="setTheme('light')" class="active" id="light-btn">☀️ Light</button>
+    <button onclick="setTheme('dark')" id="dark-btn">🌙 Dark</button>
+  </div>
+
   <header>
     <div class="container">
       <h1>Albi Flight Design System</h1>
@@ -33,6 +94,51 @@
         <h1>Color Tokens</h1>
         <p>Complete color system from Figma with brand colors, semantic scales, and accessibility guidelines.</p>
       </div>
+
+      <section>
+        <h2>Theme System</h2>
+        <p>The Albi Flight design system uses a three-tier token architecture for maximum flexibility:</p>
+        <div style="margin: 2rem 0; padding: 1.5rem; background: var(--albi-color-primitive-colors-core-grey-50); border-radius: 8px; border-left: 4px solid var(--albi-color-semantic-v2-theme-primary);">
+          <h3 style="margin-top: 0;">Token Hierarchy</h3>
+          <ol style="padding-left: 2rem; line-height: 2;">
+            <li><strong>Primitive Colors:</strong> Base color values (e.g., <code>blue-600: #1f51bc</code>)</li>
+            <li><strong>Semantic Theme Tokens:</strong> Contextual colors (e.g., <code>theme-primary</code> → references <code>blue-600</code>)</li>
+            <li><strong>Component Tokens:</strong> Component-specific (e.g., <code>button-primary-bg</code> → references <code>theme-primary</code>)</li>
+          </ol>
+          <p style="margin: 1rem 0 0;">This hierarchy means you can switch themes by changing semantic tokens, and all components update automatically!</p>
+        </div>
+
+        <h3>Available Semantic Theme Colors</h3>
+        <div class="token-grid">
+          <div class="token-item">
+            <div class="token-preview" style="background: var(--albi-color-semantic-v2-theme-primary);"></div>
+            <div class="token-name">theme-primary</div>
+            <div class="token-value"><code>--albi-color-semantic-v2-theme-primary</code></div>
+            <p style="font-size: 0.75rem; color: #636e80; margin-top: 0.5rem;">Primary theme color for buttons, links</p>
+          </div>
+
+          <div class="token-item">
+            <div class="token-preview" style="background: var(--albi-color-semantic-v2-theme-secondary);"></div>
+            <div class="token-name">theme-secondary</div>
+            <div class="token-value"><code>--albi-color-semantic-v2-theme-secondary</code></div>
+            <p style="font-size: 0.75rem; color: #636e80; margin-top: 0.5rem;">Secondary theme color</p>
+          </div>
+
+          <div class="token-item">
+            <div class="token-preview" style="background: var(--albi-color-semantic-v2-theme-danger);"></div>
+            <div class="token-name">theme-danger</div>
+            <div class="token-value"><code>--albi-color-semantic-v2-theme-danger</code></div>
+            <p style="font-size: 0.75rem; color: #636e80; margin-top: 0.5rem;">Destructive actions, errors</p>
+          </div>
+
+          <div class="token-item">
+            <div class="token-preview" style="background: var(--albi-color-semantic-v2-theme-warning);"></div>
+            <div class="token-name">theme-warning</div>
+            <div class="token-value"><code>--albi-color-semantic-v2-theme-warning</code></div>
+            <p style="font-size: 0.75rem; color: #636e80; margin-top: 0.5rem;">Warnings, cautions</p>
+          </div>
+        </div>
+      </section>
 
       <section>
         <h2>Brand Colors</h2>
@@ -545,5 +651,19 @@
   </footer>
 
   <script src="../assets/js/main.js"></script>
+  <script>
+    function setTheme(theme) {
+      document.body.setAttribute('data-theme', theme);
+      localStorage.setItem('theme', theme);
+
+      // Update button states
+      document.getElementById('light-btn').classList.toggle('active', theme === 'light');
+      document.getElementById('dark-btn').classList.toggle('active', theme === 'dark');
+    }
+
+    // Load saved theme or default to light
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    setTheme(savedTheme);
+  </script>
 </body>
 </html>
